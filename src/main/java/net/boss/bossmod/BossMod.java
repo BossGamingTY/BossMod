@@ -2,6 +2,7 @@ package net.boss.bossmod;
 
 import com.mojang.logging.LogUtils;
 import net.boss.bossmod.block.ModBlocks;
+import net.boss.bossmod.item.ModCreativeModeTabs;
 import net.boss.bossmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -35,6 +36,8 @@ public class BossMod {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+
+        ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
