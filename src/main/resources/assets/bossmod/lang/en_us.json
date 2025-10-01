@@ -1,4 +1,7 @@
 {
-  "item.bossmod.alexandrite": "Alexandrite",
-  "item.bossmod.raw_alexandrite": "Raw Alexandrite"
+  "item.bossmod.alexandrite": "Alexandrite Gem",
+  "item.bossmod.raw_alexandrite": "Raw Alexandrite",
+
+  "block.bossmod.alexandrite_block": "Block of Alexandrite",
+  "block.bossmod.raw_alexandrite_block": "Block of Raw Alexandrite"
 }
