@@ -1,8 +1,6 @@
 package net.boss.bossmod.item.custom;
 
 import net.boss.bossmod.block.ModBlocks;
-import net.boss.bossmod.block.ModBlocks;
-import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvents;
