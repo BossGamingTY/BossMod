@@ -9,6 +9,8 @@
   "block.bossmod.raw_alexandrite_block": "Block of Raw Alexandrite",
   "block.bossmod.alexandrite_ore": "Alexandrite Ore",
   "block.bossmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
+  "block.bossmod.magic_block": "Magic Block",
+
 
   //Creative tabs name here.
   "creativetab.bossmod.alexandrite_items": "Alexandrite Items",

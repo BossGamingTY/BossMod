@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bossmod:block/magic_block"
+    }
+  }
+}
