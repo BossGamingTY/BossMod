@@ -2,6 +2,7 @@
   //Items name here.
   "item.bossmod.alexandrite": "Alexandrite Gem",
   "item.bossmod.raw_alexandrite": "Raw Alexandrite",
+  "item.bossmod.chisel": "Chisel",
 
   //Blocks name here.
   "block.bossmod.alexandrite_block": "Block of Alexandrite",
