@@ -1,10 +1,15 @@
 {
+  //Items name here.
   "item.bossmod.alexandrite": "Alexandrite Gem",
   "item.bossmod.raw_alexandrite": "Raw Alexandrite",
 
+  //Blocks name here.
   "block.bossmod.alexandrite_block": "Block of Alexandrite",
   "block.bossmod.raw_alexandrite_block": "Block of Raw Alexandrite",
+  "block.bossmod.alexandrite_ore": "Alexandrite Ore",
+  "block.bossmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
 
+  //Creative tabs name here.
   "creativetab.bossmod.alexandrite_items": "Alexandrite Items",
   "creativetab.bossmod.alexandrite_blocks": "Alexandrite Blocks"
 }
