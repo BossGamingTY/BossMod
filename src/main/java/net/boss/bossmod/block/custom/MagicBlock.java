@@ -1,5 +1,6 @@
 package net.boss.bossmod.block.custom;
 
+import net.boss.bossmod.block.ModBlocks;
 import net.boss.bossmod.item.ModItems;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundEvent;
@@ -37,8 +38,20 @@ public class MagicBlock extends Block {
             if(itemEntity.getItem().getItem() == Items.RABBIT_FOOT) {
                 itemEntity.setItem(new ItemStack(Items.EMERALD, itemEntity.getItem().getCount()));
             }
-            if(itemEntity.getItem().getItem() == Items.DIAMOND) {
-                itemEntity.setItem(new ItemStack(Items.NETHERITE_SCRAP, itemEntity.getItem().getCount()));
+            if(itemEntity.getItem().getItem() == Items.DIAMOND_BLOCK) {
+                itemEntity.setItem(new ItemStack(Items.NETHERITE_INGOT, itemEntity.getItem().getCount()));
+            }
+            if(itemEntity.getItem().getItem() == Items.STONE) {
+                itemEntity.setItem(new ItemStack(Items.STONE_BRICKS, itemEntity.getItem().getCount()));
+            }
+            if(itemEntity.getItem().getItem() == Items.END_STONE) {
+                itemEntity.setItem(new ItemStack(Items.END_STONE_BRICKS, itemEntity.getItem().getCount()));
+            }
+            if(itemEntity.getItem().getItem() == Items.DEEPSLATE) {
+                itemEntity.setItem(new ItemStack(Items.DEEPSLATE_BRICKS, itemEntity.getItem().getCount()));
+            }
+            if(itemEntity.getItem().getItem() == Items.DIRT) {
+                itemEntity.setItem(new ItemStack(ModBlocks.ALEXANDRITE_BLOCK.get(), itemEntity.getItem().getCount()));
             }
         }
 
