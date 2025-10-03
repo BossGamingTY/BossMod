@@ -16,5 +16,11 @@
 
   //Creative tabs name here.
   "creativetab.bossmod.alexandrite_items": "Alexandrite Items",
-  "creativetab.bossmod.alexandrite_blocks": "Alexandrite Blocks"
+  "creativetab.bossmod.alexandrite_blocks": "Alexandrite Blocks",
+
+  //Tooltips name here
+  "tooltip.bossmod.magic_block.tooltip": "This Block is quite §9MAGICAL§r",
+  "tooltip.bossmod.chisel.shift_down": "This Item changes certain Blocks",
+  "tooltip.bossmod.chisel": "Press §eShift§r for more Information!",
+  "tooltip.bossmod.kohlrabi": "This tastes GREAT!"
 }
