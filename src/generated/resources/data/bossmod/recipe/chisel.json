@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:echo_shard"
+    },
+    "D": {
+      "item": "bossmod:alexandrite"
+    },
+    "O": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "  D",
+    " C ",
+    "O  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "bossmod:chisel"
+  }
+}

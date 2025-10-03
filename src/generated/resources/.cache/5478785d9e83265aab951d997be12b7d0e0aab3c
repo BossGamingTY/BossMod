@@ -1,0 +1,4 @@
+// 1.21	2025-10-03T20:40:38.1618725	Tags for minecraft:block mod id bossmod
+3915f6d65f16767686de2fc2feba48d8a2502912 data/minecraft/tags/block/mineable/pickaxe.json
+872f0860f73ef37226571c69dabe3f1257fcf63d data/minecraft/tags/block/needs_diamond_tool.json
+247c5fbf179d209144db8449e5225eaa7f0172de data/minecraft/tags/block/needs_iron_tool.json

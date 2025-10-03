@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "bossmod:chisel"
+    },
+    "I": {
+      "item": "minecraft:diamond_block"
+    },
+    "N": {
+      "item": "minecraft:netherite_upgrade_smithing_template"
+    }
+  },
+  "pattern": [
+    "INI",
+    "NHN",
+    "INI"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bossmod:magic_block"
+  }
+}
