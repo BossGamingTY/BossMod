@@ -1,8 +1,13 @@
-// 1.21	2025-10-08T18:40:58.7031207	Item Models: bossmod
+// 1.21	2025-10-08T23:24:40.6744727	Item Models: bossmod
 af490201f421872a4ea492c70147be05d1f9ef3f assets/bossmod/models/item/alexandrite.json
+4b76cfd46622663016305e2d394f3bd80bf2bcb1 assets/bossmod/models/item/alexandrite_axe.json
 2c6dc27805cb336ff9dfaac8249202325f5cf4d7 assets/bossmod/models/item/alexandrite_button.json
 5758c0db6ba8417b228c3b773134d0469c71aead assets/bossmod/models/item/alexandrite_door.json
 90de08a55adf40eeba5d742568494b552673b3aa assets/bossmod/models/item/alexandrite_fence.json
+585a94c2414a2f169bfb51914c969a6ebb0a3f25 assets/bossmod/models/item/alexandrite_hoe.json
+1a4f297392f75fbdb89338c392a5d887c5ef9512 assets/bossmod/models/item/alexandrite_pickaxe.json
+af3a60013f7f078d700e423ed74824f3b7760ac2 assets/bossmod/models/item/alexandrite_shovel.json
+9f4a10805d75be14ee2f39ec8d4ab3da6a17aa05 assets/bossmod/models/item/alexandrite_sword.json
 8bf8208ba9e9d898dc889f8e62720564f9ac755e assets/bossmod/models/item/alexandrite_wall.json
 d6ffc9335fece265bc6a3956520c0efa4dc2b4b7 assets/bossmod/models/item/aurora_ashes.json
 e7343a152a73e25dd2fe5f369aecf4a5431c4ae9 assets/bossmod/models/item/chisel.json

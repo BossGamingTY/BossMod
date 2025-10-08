@@ -1,12 +1,19 @@
 {
-  //Items name here.
+  //Items name here
   "item.bossmod.alexandrite": "Alexandrite Gem",
   "item.bossmod.raw_alexandrite": "Raw Alexandrite",
   "item.bossmod.chisel": "Chisel",
   "item.bossmod.kohlrabi": "Kohlrabi",
   "item.bossmod.aurora_ashes": "Aurora ashes",
 
-  //Blocks name here.
+  //Tools name here
+  "item.bossmod.alexandrite_sword": "Alexandrite Sword",
+  "item.bossmod.alexandrite_pickaxe": "Alexandrite Pickaxe",
+  "item.bossmod.alexandrite_shovel": "Alexandrite Shovel",
+  "item.bossmod.alexandrite_axe": "Alexandrite Axe",
+  "item.bossmod.alexandrite_hoe": "Alexandrite Hoe",
+
+  //Blocks name here
   "block.bossmod.alexandrite_block": "Block of Alexandrite",
   "block.bossmod.raw_alexandrite_block": "Block of Raw Alexandrite",
   "block.bossmod.alexandrite_ore": "Alexandrite Ore",
@@ -25,7 +32,7 @@
 
 
 
-  //Creative tabs name here.
+  //Creative tabs name here
   "creativetab.bossmod.alexandrite_items": "Alexandrite Items",
   "creativetab.bossmod.alexandrite_blocks": "Alexandrite Blocks",
 
