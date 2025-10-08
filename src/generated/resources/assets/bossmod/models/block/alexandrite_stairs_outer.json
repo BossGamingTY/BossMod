@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "bossmod:block/alexandrite_block",
+    "side": "bossmod:block/alexandrite_block",
+    "top": "bossmod:block/alexandrite_block"
+  }
+}

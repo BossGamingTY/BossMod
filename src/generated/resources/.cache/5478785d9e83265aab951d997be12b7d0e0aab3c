@@ -1,4 +1,7 @@
-// 1.21	2025-10-03T20:40:38.1618725	Tags for minecraft:block mod id bossmod
+// 1.21	2025-10-08T18:40:58.7067016	Tags for minecraft:block mod id bossmod
+21ef2b80447eef080b07b9f4e46148da8e0cdb96 data/minecraft/tags/block/fences.json
+c4aaaedad114057f7c056e149491f55782ab4182 data/minecraft/tags/block/fence_gates.json
 3915f6d65f16767686de2fc2feba48d8a2502912 data/minecraft/tags/block/mineable/pickaxe.json
 872f0860f73ef37226571c69dabe3f1257fcf63d data/minecraft/tags/block/needs_diamond_tool.json
 247c5fbf179d209144db8449e5225eaa7f0172de data/minecraft/tags/block/needs_iron_tool.json
+1e66c1b6ecb8ccac422a8f0fc13cffd79bf88698 data/minecraft/tags/block/walls.json
