@@ -1,6 +1,7 @@
 package net.boss.bossmod.item.custom;
 
 import net.boss.bossmod.block.ModBlocks;
+import net.boss.bossmod.component.ModDataComponentTypes;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
@@ -47,6 +48,8 @@ public class ChiselItem extends Item {
                         item -> pContext.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
 
                 level.playSound(null, pContext.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+
+                pContext.getItemInHand().set(ModDataComponentTypes.COORDINATES.get(), pContext.getClickedPos());
             }
         }
 
@@ -58,6 +61,10 @@ public class ChiselItem extends Item {
             pTooltipComponents.add(Component.translatable("tooltip.bossmod.chisel.shift_down"));
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.bossmod.chisel"));
+        }
+
+        if(pStack.get(ModDataComponentTypes.COORDINATES.get()) != null) {
+            pTooltipComponents.add(Component.literal("Last Block changed at " + pStack.get(ModDataComponentTypes.COORDINATES.get())));
         }
 
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);

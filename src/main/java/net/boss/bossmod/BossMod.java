@@ -2,6 +2,7 @@ package net.boss.bossmod;
 
 import com.mojang.logging.LogUtils;
 import net.boss.bossmod.block.ModBlocks;
+import net.boss.bossmod.component.ModDataComponentTypes;
 import net.boss.bossmod.item.ModCreativeModeTabs;
 import net.boss.bossmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
@@ -41,6 +42,8 @@ public class BossMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModDataComponentTypes.register(modEventBus);
 
 
         // Register the item to a creative tab
