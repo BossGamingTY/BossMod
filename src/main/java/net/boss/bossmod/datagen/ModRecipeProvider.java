@@ -130,6 +130,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.ALEXANDRITE.get())
                 .define('S', Items.STICK)
                 .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_HAMMER.get())
+                .pattern("AAA")
+                .pattern(" S ")
+                .pattern(" S ")
+                .define('A', ModBlocks.ALEXANDRITE_BLOCK.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get())).save(pRecipeOutput);
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

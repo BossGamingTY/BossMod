@@ -34,6 +34,8 @@ public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
                         output.accept(ModItems.ALEXANDRITE_AXE.get());
                         output.accept(ModItems.ALEXANDRITE_HOE.get());
 
+                        output.accept(ModItems.ALEXANDRITE_HAMMER.get());
+
                     }).build());
 
 public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CREATIVE_MODE_TABS.register("alexanderite_blocks_tab",

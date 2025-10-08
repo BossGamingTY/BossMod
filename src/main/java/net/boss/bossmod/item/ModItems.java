@@ -3,6 +3,7 @@ package net.boss.bossmod.item;
 import net.boss.bossmod.BossMod;
 import net.boss.bossmod.item.custom.ChiselItem;
 import net.boss.bossmod.item.custom.FuelItem;
+import net.boss.bossmod.item.custom.HammerItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -51,6 +52,11 @@ public class ModItems {
     public static final RegistryObject<Item> ALEXANDRITE_HOE = ITEMS.register("alexandrite_hoe",
             () -> new HoeItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
                     .attributes(HoeItem.createAttributes(ModToolTiers.ALEXANDRITE, 0, -3.0f))));
+
+    public static final RegistryObject<Item> ALEXANDRITE_HAMMER = ITEMS.register("alexandrite_hammer",
+            () -> new HammerItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
+                    .attributes(PickaxeItem.createAttributes(ModToolTiers.ALEXANDRITE, 7, -3.5f))));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
