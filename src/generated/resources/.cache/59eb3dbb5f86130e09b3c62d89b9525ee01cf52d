@@ -1,10 +1,11 @@
-// 1.21	2025-10-08T18:40:58.7051644	Loot Tables
+// 1.21	2025-10-08T21:58:25.1667336	Loot Tables
 e2d5ce1307ac22b632d57af1e2fe2be2e54d7db9 data/bossmod/loot_table/blocks/alexandrite_block.json
 9768b62e64cfc9ae88f4646e5901bb7c3faa732f data/bossmod/loot_table/blocks/alexandrite_button.json
 2564fe4bbe15894fa2c0d11c820ace1474668abe data/bossmod/loot_table/blocks/alexandrite_deepslate_ore.json
 3e9e4578d8bc902d26a8e793297bb674dc619111 data/bossmod/loot_table/blocks/alexandrite_door.json
 79e73acdfcd78f581f52163b81b8861fa0f1f3b9 data/bossmod/loot_table/blocks/alexandrite_fence.json
 bbe62066d2125e6d6c93f215b81a16accff582eb data/bossmod/loot_table/blocks/alexandrite_fence_gate.json
+bb2cc89c82b1adc29730420acfacb55e3bcc8b9f data/bossmod/loot_table/blocks/alexandrite_lamp.json
 2ecf92612317283954796bade285d97e47be2d2e data/bossmod/loot_table/blocks/alexandrite_ore.json
 7bb5965850f57aba6ab71afe5fb0abcb7bea2c7d data/bossmod/loot_table/blocks/alexandrite_pressure_plate.json
 3fdb4ac1567a556872fba0676ad334a707db93b7 data/bossmod/loot_table/blocks/alexandrite_slab.json
