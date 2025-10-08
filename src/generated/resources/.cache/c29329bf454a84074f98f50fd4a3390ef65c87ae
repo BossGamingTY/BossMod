@@ -1,4 +1,4 @@
-// 1.21	2025-10-08T18:40:58.6999619	Block States: bossmod
+// 1.21	2025-10-08T19:14:43.1361409	Block States: bossmod
 bb9615bc6e13e88e1c7695d1f6898d20bb10d1eb assets/bossmod/blockstates/alexandrite_block.json
 587ceb9a19b8f936b849aa350c39ac67d696c1bb assets/bossmod/blockstates/alexandrite_button.json
 b7ba90052af3eff24c59300a1440b034115a1cbb assets/bossmod/blockstates/alexandrite_deepslate_ore.json
@@ -49,11 +49,11 @@ b754a13818b66964ba37d0eced2d7be1cd2b300a assets/bossmod/models/block/alexandrite
 2189fdb264af206df952741a2405843883437a36 assets/bossmod/models/block/raw_alexandrite_block.json
 34c912b121f84286fb14462e2a75971a577d26bd assets/bossmod/models/item/alexandrite_block.json
 5fc627ccfd8337f6cab672df63fc7d4730216bf3 assets/bossmod/models/item/alexandrite_deepslate_ore.json
-072ed6b655af0f6b2e77ee9142ff180feca8cb11 assets/bossmod/models/item/alexandrite_fence_gate.json
+aed5c42a42cdd52399f4cc586f57be2d566f879a assets/bossmod/models/item/alexandrite_fence_gate.json
 2f648e25a54c6f4ba4ede021f94f77d195e8384a assets/bossmod/models/item/alexandrite_ore.json
-050ee1037f69d3f056a4bd0b891fbbfc20384276 assets/bossmod/models/item/alexandrite_pressure_plate.json
-db991a6b2d8c2c5d21973bd8b0b71ba01242de9a assets/bossmod/models/item/alexandrite_slab.json
-130843caf95c563e4a8c83d14a3c0171954fd6cb assets/bossmod/models/item/alexandrite_stairs.json
-095530aa775d81b20f3266ec7f12f8b59c34f2a6 assets/bossmod/models/item/alexandrite_trapdoor.json
+e528cb651759105fa1757752a7f633a391dea1c6 assets/bossmod/models/item/alexandrite_pressure_plate.json
+43e1d608042b3640bd85569fd7faaf921206d21a assets/bossmod/models/item/alexandrite_slab.json
+8180292a903f9fcccefb4d9a5f7d1b1643b01556 assets/bossmod/models/item/alexandrite_stairs.json
+1a0cf704a6a647ddab060cb3a34aa5b812807947 assets/bossmod/models/item/alexandrite_trapdoor.json
 efd8c24a4265e793919e2ccd78c8b38c682e23e9 assets/bossmod/models/item/magic_block.json
 2055e39e021a11d2e44076a15583301034185dc8 assets/bossmod/models/item/raw_alexandrite_block.json
