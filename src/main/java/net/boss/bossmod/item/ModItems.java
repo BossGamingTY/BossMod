@@ -4,6 +4,7 @@ import net.boss.bossmod.BossMod;
 import net.boss.bossmod.item.custom.ChiselItem;
 import net.boss.bossmod.item.custom.FuelItem;
 import net.boss.bossmod.item.custom.HammerItem;
+import net.boss.bossmod.item.custom.ModArmorItem;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -58,7 +59,7 @@ public class ModItems {
                     .attributes(PickaxeItem.createAttributes(ModToolTiers.ALEXANDRITE, 7, -3.5f))));
 
     public static final RegistryObject<Item> ALEXANDRITE_HELMET = ITEMS.register("alexandrite_helmet",
-            () -> new ArmorItem(ModArmorMaterials.ALEXANDRITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+            () -> new ModArmorItem(ModArmorMaterials.ALEXANDRITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
                     new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(18))));
     public static final RegistryObject<Item> ALEXANDRITE_CHESTPLATE = ITEMS.register("alexandrite_chestplate",
             () -> new ArmorItem(ModArmorMaterials.ALEXANDRITE_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
