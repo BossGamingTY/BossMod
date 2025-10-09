@@ -1,4 +1,4 @@
-// 1.21	2025-10-09T18:07:24.3131604	Recipes
+// 1.21	2025-10-09T19:41:31.9660639	Recipes
 bb7933bb1b05b9546d90a9d84d587a0b092779c9 data/bossmod/advancement/recipes/building_blocks/alexandrite_slab.json
 ef166d676288d88dc6fcacf23b08ee59de568e2e data/bossmod/advancement/recipes/building_blocks/alexandrite_stairs.json
 a3e2ead5e358d292e3aa0c5d8567a674661fdc11 data/bossmod/advancement/recipes/building_blocks/alexandrite_wall.json
@@ -23,6 +23,7 @@ a6d5da0d3aff83d310d1dc6d292f2a49595315c9 data/bossmod/advancement/recipes/misc/a
 4521b2406de3d432109d434776d8edc9badf40ae data/bossmod/advancement/recipes/misc/alexandrite_shovel.json
 2a2f4cda2f3870a1dcf719946a1d67790c05ce0f data/bossmod/advancement/recipes/misc/alexandrite_sword.json
 fef5d63b7bf031625ef3ac9a437b15e4c506a6d2 data/bossmod/advancement/recipes/misc/chisel.json
+d12a5195fa6aff32cdf679cc1fc8d188da05d405 data/bossmod/advancement/recipes/misc/kaupen.json
 4e0d362a6ac51016c09216a8a71f3ee3bb1767d2 data/bossmod/advancement/recipes/misc/magic_block.json
 3a9015280c5572400d934a95332d2f78d61e827f data/bossmod/advancement/recipes/misc/raw_alexandrite.json
 29251ef1931bfcd72274c5f2b9d74f802f27c633 data/bossmod/advancement/recipes/misc/raw_alexandrite_block.json
@@ -60,6 +61,7 @@ b2e1979ff64c874619bc1f0103e86c5456f85318 data/bossmod/recipe/alexandrite_slab.js
 4ece9476af261ceedf79f5c1b149e160d0149043 data/bossmod/recipe/alexandrite_trapdoor.json
 6f32c6ff9190d008fbae183de93d4aa1febcdd6c data/bossmod/recipe/alexandrite_wall.json
 b4c41bc80f4bc18d011f8169436ee51a8d97176c data/bossmod/recipe/chisel.json
+35a7c5740db400a2b5b5a10ae18abd56a1984661 data/bossmod/recipe/kaupen.json
 69749ddba8ddc6e2c387a984d79f60289fcbde67 data/bossmod/recipe/magic_block.json
 af65d733143a863faccae8958320b2a6a8ff3a27 data/bossmod/recipe/raw_alexandrite.json
 67ad76dfe10a8fc3896a947a910d527ce281eed1 data/bossmod/recipe/raw_alexandrite_block.json

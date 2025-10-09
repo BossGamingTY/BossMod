@@ -1,4 +1,4 @@
-// 1.21	2025-10-09T00:30:23.1594473	Item Models: bossmod
+// 1.21	2025-10-09T19:45:34.9412556	Item Models: bossmod
 af490201f421872a4ea492c70147be05d1f9ef3f assets/bossmod/models/item/alexandrite.json
 4b76cfd46622663016305e2d394f3bd80bf2bcb1 assets/bossmod/models/item/alexandrite_axe.json
 9ab3eac8d0a2c4327e050ce55ffd2fb0879637a3 assets/bossmod/models/item/alexandrite_boots.json
@@ -39,6 +39,7 @@ c8af79436bed668676397a75040e5c8faf359a68 assets/bossmod/models/item/alexandrite_
 ee5fe4c0ceb36d83e5b7d8a0416dc5d5262c1f1c assets/bossmod/models/item/alexandrite_helmet_quartz_trim.json
 82cfca6c86bc59fdeef7b980dd8aed29450f4fe6 assets/bossmod/models/item/alexandrite_helmet_redstone_trim.json
 585a94c2414a2f169bfb51914c969a6ebb0a3f25 assets/bossmod/models/item/alexandrite_hoe.json
+1e180aef7ca3365338720f974e54f0195f720920 assets/bossmod/models/item/alexandrite_horse_armor.json
 3dbfd8e06b6202e5b46e4dcf975cabdf6cb6fb5f assets/bossmod/models/item/alexandrite_leggings.json
 9f396ac8ff22ac080489402d4249929ffe98a8ea assets/bossmod/models/item/alexandrite_leggings_amethyst_trim.json
 47d504fa1de7b466eb3e6d7f86ad5fe114f7d4c9 assets/bossmod/models/item/alexandrite_leggings_copper_trim.json
@@ -56,5 +57,6 @@ af3a60013f7f078d700e423ed74824f3b7760ac2 assets/bossmod/models/item/alexandrite_
 8bf8208ba9e9d898dc889f8e62720564f9ac755e assets/bossmod/models/item/alexandrite_wall.json
 d6ffc9335fece265bc6a3956520c0efa4dc2b4b7 assets/bossmod/models/item/aurora_ashes.json
 e7343a152a73e25dd2fe5f369aecf4a5431c4ae9 assets/bossmod/models/item/chisel.json
+4898bff52f8131d7f3f9446a0120267b6438435c assets/bossmod/models/item/kaupen_armor_trim_smithing_template.json
 67b7587d1c11747f1940b3009b2cb5f824ba405b assets/bossmod/models/item/kohlrabi.json
 5e6c096836cc0bce298134846cf8b968ad733bf4 assets/bossmod/models/item/raw_alexandrite.json

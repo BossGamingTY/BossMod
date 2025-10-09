@@ -1,0 +1,8 @@
+{
+  "asset_id": "bossmod:kaupen",
+  "decal": false,
+  "description": {
+    "translate": "trim_pattern.bossmod.kaupen"
+  },
+  "template_item": "bossmod:kaupen_armor_trim_smithing_template"
+}
