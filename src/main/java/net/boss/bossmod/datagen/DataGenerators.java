@@ -2,6 +2,7 @@ package net.boss.bossmod.datagen;
 
 import net.boss.bossmod.BossMod;
 import net.boss.bossmod.datagen.*;
+import net.boss.bossmod.datagen.ModItemTagProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;

@@ -1,7 +1,7 @@
 package net.boss.bossmod.datagen;
 
-import net.boss.bossmod.BossMod;
 import net.boss.bossmod.item.ModItems;
+import net.boss.bossmod.BossMod;
 import net.boss.bossmod.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
@@ -22,18 +22,25 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
+        tag(ItemTags.SWORDS).add(ModItems.ALEXANDRITE_SWORD.get());
+        tag(ItemTags.PICKAXES).add(ModItems.ALEXANDRITE_PICKAXE.get());
+        tag(ItemTags.SHOVELS).add(ModItems.ALEXANDRITE_SHOVEL.get());
+        tag(ItemTags.AXES).add(ModItems.ALEXANDRITE_AXE.get());
+        tag(ItemTags.HOES).add(ModItems.ALEXANDRITE_HOE.get());
+        tag(ItemTags.PICKAXES).add(ModItems.ALEXANDRITE_HAMMER.get());
+
+        tag(ItemTags.ARMOR_ENCHANTABLE)
+                .add(ModItems.ALEXANDRITE_HELMET.get())
+                .add(ModItems.ALEXANDRITE_CHESTPLATE.get())
+                .add(ModItems.ALEXANDRITE_LEGGINGS.get())
+                .add(ModItems.ALEXANDRITE_BOOTS.get());
+
         tag(ModTags.Items.TRANSFORMABLE_ITEMS)
                 .add(ModItems.ALEXANDRITE.get())
                 .add(ModItems.RAW_ALEXANDRITE.get())
                 .add(Items.COAL)
                 .add(Items.STICK)
                 .add(Items.COMPASS);
-
-        tag(ItemTags.TRIMMABLE_ARMOR)
-                .add(ModItems.ALEXANDRITE_HELMET.get())
-                .add(ModItems.ALEXANDRITE_CHESTPLATE.get())
-                .add(ModItems.ALEXANDRITE_LEGGINGS.get())
-                .add(ModItems.ALEXANDRITE_BOOTS.get());
 
         tag(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.ALEXANDRITE_HELMET.get())
