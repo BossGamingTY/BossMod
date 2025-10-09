@@ -162,7 +162,7 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get())).save(pRecipeOutput);
 
         trimSmithing(pRecipeOutput, ModItems.KAUPEN_SMITHING_TEMPLATE.get(), ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "kaupen"));
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_BOOTS.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.KAUPEN_SMITHING_TEMPLATE.get())
                 .pattern("DKD")
                 .pattern("DAD")
                 .pattern("DDD")

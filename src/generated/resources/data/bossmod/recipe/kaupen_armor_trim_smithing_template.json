@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "bossmod:alexandrite"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "K": {
+      "item": "bossmod:kaupen_armor_trim_smithing_template"
+    }
+  },
+  "pattern": [
+    "DKD",
+    "DAD",
+    "DDD"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bossmod:kaupen_armor_trim_smithing_template"
+  }
+}
