@@ -162,7 +162,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get())).save(pRecipeOutput);
 
         trimSmithing(pRecipeOutput, ModItems.KAUPEN_SMITHING_TEMPLATE.get(), ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "kaupen"));
-
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_BOOTS.get())
+                .pattern("DKD")
+                .pattern("DAD")
+                .pattern("DDD")
+                .define('A', ModItems.ALEXANDRITE.get())
+                .define('D', Items.DIAMOND)
+                .define('K', ModItems.KAUPEN_SMITHING_TEMPLATE.get())
+                .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get())).save(pRecipeOutput);
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
