@@ -14,6 +14,12 @@
   "item.bossmod.alexandrite_hoe": "Alexandrite Hoe",
   "item.bossmod.alexandrite_hammer": "Alexandrite Hammer",
 
+  //Armour name here
+  "item.bossmod.alexandrite_helmet": "Alexandrite Helmet",
+  "item.bossmod.alexandrite_chestplate": "Alexandrite Chestplate",
+  "item.bossmod.alexandrite_leggings": "Alexandrite Leggings",
+  "item.bossmod.alexandrite_boots": "Alexandrite Boots",
+
   //Blocks name here
   "block.bossmod.alexandrite_block": "Block of Alexandrite",
   "block.bossmod.raw_alexandrite_block": "Block of Raw Alexandrite",

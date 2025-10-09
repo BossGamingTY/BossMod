@@ -1,2 +1,3 @@
-// 1.21	2025-10-03T20:40:38.1578716	Tags for minecraft:item mod id bossmod
+// 1.21	2025-10-09T00:30:23.1574467	Tags for minecraft:item mod id bossmod
 27f25c95347fd9502e16b9356a13daf80400b6f4 data/bossmod/tags/item/transformable_items.json
+240315004ff94d5867990baeae5a19f07af3d24a data/minecraft/tags/item/trimmable_armor.json
