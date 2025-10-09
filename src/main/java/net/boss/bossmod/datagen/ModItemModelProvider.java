@@ -71,7 +71,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.KAUPEN_SMITHING_TEMPLATE.get());
     }
 
-    // Shoutout to El_Redstoniano for making this
+    // Shoutout to El_Redstoniano for making this:
     private void trimmedArmorItem(RegistryObject<Item> itemRegistryObject) {
         final String MOD_ID = BossMod.MOD_ID; // Change this to your mod id
 
