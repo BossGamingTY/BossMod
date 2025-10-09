@@ -5,7 +5,7 @@ import net.boss.bossmod.block.ModBlocks;
 import net.boss.bossmod.component.ModDataComponentTypes;
 import net.boss.bossmod.item.ModCreativeModeTabs;
 import net.boss.bossmod.item.ModItems;
-import net.minecraft.world.item.CreativeModeTab;
+import net.boss.bossmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -80,7 +80,7 @@ public class BossMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            ModItemProperties.addCustomItemProperties();
         }
     }
 }

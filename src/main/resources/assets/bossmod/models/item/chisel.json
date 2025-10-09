@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bossmod:item/chisel"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "bossmod:used": 1
+      },
+      "model": "bossmod:item/chisel_used"
+    }
+  ]
+}
