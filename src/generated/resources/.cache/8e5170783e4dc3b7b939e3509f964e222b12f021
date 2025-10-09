@@ -1,7 +1,8 @@
-// 1.21	2025-10-09T22:45:01.6605395	Tags for minecraft:item mod id bossmod
+// 1.21	2025-10-10T00:09:52.7330734	Tags for minecraft:item mod id bossmod
 27f25c95347fd9502e16b9356a13daf80400b6f4 data/bossmod/tags/item/transformable_items.json
 8f09ded7f17b74eeadcafe35417200dc1505eaf3 data/minecraft/tags/item/axes.json
 240315004ff94d5867990baeae5a19f07af3d24a data/minecraft/tags/item/enchantable/armor.json
+9d8655c5c22fbe016d7fbad4cfc1a7dad8fff293 data/minecraft/tags/item/enchantable/bow.json
 0848fc83314e32fa9ad704b460e93ae111989bf2 data/minecraft/tags/item/hoes.json
 89ace0c2a3c222b1c02487a6503e80425677aae4 data/minecraft/tags/item/pickaxes.json
 2e4d5560595d8c93174528cbbe407c3da17e406a data/minecraft/tags/item/shovels.json

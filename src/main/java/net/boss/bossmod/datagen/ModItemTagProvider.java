@@ -10,6 +10,7 @@ import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
@@ -21,14 +22,14 @@ public class ModItemTagProvider extends ItemTagsProvider {
     }
 
     @Override
-    protected void addTags(HolderLookup.Provider pProvider) {
+    protected void addTags(HolderLookup.@NotNull Provider pProvider) {
         tag(ItemTags.SWORDS).add(ModItems.ALEXANDRITE_SWORD.get());
         tag(ItemTags.PICKAXES).add(ModItems.ALEXANDRITE_PICKAXE.get());
         tag(ItemTags.SHOVELS).add(ModItems.ALEXANDRITE_SHOVEL.get());
         tag(ItemTags.AXES).add(ModItems.ALEXANDRITE_AXE.get());
         tag(ItemTags.HOES).add(ModItems.ALEXANDRITE_HOE.get());
         tag(ItemTags.PICKAXES).add(ModItems.ALEXANDRITE_HAMMER.get());
-
+        tag(ItemTags.BOW_ENCHANTABLE).add(ModItems.KAUPEN_BOW.get());
         tag(ItemTags.ARMOR_ENCHANTABLE)
                 .add(ModItems.ALEXANDRITE_HELMET.get())
                 .add(ModItems.ALEXANDRITE_CHESTPLATE.get())

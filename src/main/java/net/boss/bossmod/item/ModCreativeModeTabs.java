@@ -33,6 +33,7 @@ public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
                         output.accept(ModItems.ALEXANDRITE_SHOVEL.get());
                         output.accept(ModItems.ALEXANDRITE_AXE.get());
                         output.accept(ModItems.ALEXANDRITE_HOE.get());
+                        output.accept(ModItems.KAUPEN_BOW.get());
 
                         output.accept(ModItems.ALEXANDRITE_HAMMER.get());
 
