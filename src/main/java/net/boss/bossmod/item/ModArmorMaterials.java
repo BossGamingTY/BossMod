@@ -25,7 +25,7 @@ public class ModArmorMaterials {
                 attribute.put(ArmorItem.Type.CHESTPLATE, 9);
                 attribute.put(ArmorItem.Type.HELMET, 5);
                 attribute.put(ArmorItem.Type.BODY, 11);
-            }), 15, 4f, 0.1f, () -> ModItems.ALEXANDRITE.get());
+            }), 15, 4f, 0.1f,  () -> ModItems.ALEXANDRITE.get());
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,
                                                   int enchantability, float toughness, float knockbackResistance,
@@ -35,9 +35,9 @@ public class ModArmorMaterials {
         Supplier<Ingredient> ingredient = () -> Ingredient.of(ingredientItem.get());
         List<ArmorMaterial.Layer> layers = List.of(new ArmorMaterial.Layer(location));
 
-        EnumMap<ArmorItem.Type, Integer> typeMap = new EnumMap<>(ArmorItem.Type.class);
+        EnumMap<ArmorItem.Type, Integer> typeIntegerEnumMap = new EnumMap<>(ArmorItem.Type.class);
         for (ArmorItem.Type type : ArmorItem.Type.values()) {
-            typeMap.put(type, typeProtection.get(type));
+            typeIntegerEnumMap.put(type, typeProtection.get(type));
         }
 
         return Registry.registerForHolder(BuiltInRegistries.ARMOR_MATERIAL, location,
