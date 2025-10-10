@@ -50,6 +50,14 @@
   "block.bossmod.alexandrite_trapdoor": "Alexandrite Trapdoor",
   "block.bossmod.alexandrite_lamp": "Alexandrite Lamp",
 
+  //Paintings
+  "painting.bossmod.world.title": "World",
+  "painting.bossmod.world.author": "NanoAttack",
+  "painting.bossmod.shrimp.title": "Shrimp",
+  "painting.bossmod.shrimp.author": "NanoAttack",
+  "painting.bossmod.saw_them.title": "Saw Them",
+  "painting.bossmod.saw_them.author": "NanoAttack",
+
   //Creative tabs
   "creativetab.bossmod.alexandrite_items": "Alexandrite Items",
   "creativetab.bossmod.alexandrite_blocks": "Alexandrite Blocks",
