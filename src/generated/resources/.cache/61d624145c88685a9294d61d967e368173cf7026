@@ -1,4 +1,4 @@
-// 1.21	2025-10-09T23:09:11.148572	Item Models: bossmod
+// 1.21	2025-10-10T23:36:26.198711	Item Models: bossmod
 af490201f421872a4ea492c70147be05d1f9ef3f assets/bossmod/models/item/alexandrite.json
 4b76cfd46622663016305e2d394f3bd80bf2bcb1 assets/bossmod/models/item/alexandrite_axe.json
 9ab3eac8d0a2c4327e050ce55ffd2fb0879637a3 assets/bossmod/models/item/alexandrite_boots.json
@@ -56,6 +56,7 @@ af3a60013f7f078d700e423ed74824f3b7760ac2 assets/bossmod/models/item/alexandrite_
 9f4a10805d75be14ee2f39ec8d4ab3da6a17aa05 assets/bossmod/models/item/alexandrite_sword.json
 8bf8208ba9e9d898dc889f8e62720564f9ac755e assets/bossmod/models/item/alexandrite_wall.json
 d6ffc9335fece265bc6a3956520c0efa4dc2b4b7 assets/bossmod/models/item/aurora_ashes.json
+9b6b44f5e48bcd5d2d07d529e703cd8969146768 assets/bossmod/models/item/bar_brawl_music_disc.json
 4898bff52f8131d7f3f9446a0120267b6438435c assets/bossmod/models/item/kaupen_armor_trim_smithing_template.json
 67b7587d1c11747f1940b3009b2cb5f824ba405b assets/bossmod/models/item/kohlrabi.json
 5e6c096836cc0bce298134846cf8b968ad733bf4 assets/bossmod/models/item/raw_alexandrite.json

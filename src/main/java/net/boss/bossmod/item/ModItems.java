@@ -5,6 +5,7 @@ import net.boss.bossmod.item.custom.ChiselItem;
 import net.boss.bossmod.item.custom.FuelItem;
 import net.boss.bossmod.item.custom.HammerItem;
 import net.boss.bossmod.item.custom.ModArmorItem;
+import net.boss.bossmod.sound.ModSounds;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
@@ -81,6 +82,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> KAUPEN_SMITHING_TEMPLATE = ITEMS.register("kaupen_armor_trim_smithing_template",
             () -> SmithingTemplateItem.createArmorTrimTemplate(ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "kaupen")));
+
+    public static final RegistryObject<Item> BAR_BRAWL_MUSIC_DISC = ITEMS.register("bar_brawl_music_disc",
+            () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.BAR_BRAWL_KEY).stacksTo(1)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

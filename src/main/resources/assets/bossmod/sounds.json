@@ -34,5 +34,13 @@
     "sounds": [
       "bossmod:magic_block_fall"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "bossmod:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }

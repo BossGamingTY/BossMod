@@ -7,6 +7,10 @@
   "item.bossmod.aurora_ashes": "Aurora ashes",
   "item.bossmod.": "Aurora ashes",
 
+  //Music disk name here
+  "item.bossmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.bossmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
   //Tools name here
   "item.bossmod.alexandrite_sword": "Alexandrite Sword",
   "item.bossmod.alexandrite_pickaxe": "Alexandrite Pickaxe",
