@@ -5,6 +5,7 @@ import net.boss.bossmod.block.ModBlocks;
 import net.boss.bossmod.component.ModDataComponentTypes;
 import net.boss.bossmod.item.ModCreativeModeTabs;
 import net.boss.bossmod.item.ModItems;
+import net.boss.bossmod.sound.ModSounds;
 import net.boss.bossmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -37,14 +38,13 @@ public class BossMod {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
-
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModSounds.register(modEventBus);
 
         ModDataComponentTypes.register(modEventBus);
-
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

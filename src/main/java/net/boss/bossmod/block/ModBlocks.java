@@ -4,6 +4,7 @@ import net.boss.bossmod.BossMod;
 import net.boss.bossmod.block.custom.AlexandriteLampBlock;
 import net.boss.bossmod.block.custom.MagicBlock;
 import net.boss.bossmod.item.ModItems;
+import net.boss.bossmod.sound.ModSounds;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -37,7 +38,7 @@ public class ModBlocks {
                     .strength(5f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE)));
 
     public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
-            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable()));
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable().sound(ModSounds.MAGIC_BLOCK_SOUNDS)));
 
     public static final RegistryObject<StairBlock> ALEXANDRITE_STAIRS = registerBlock("alexandrite_stairs",
             () -> new StairBlock(ModBlocks.ALEXANDRITE_BLOCK.get().defaultBlockState(),
@@ -48,7 +49,7 @@ public class ModBlocks {
     public static final RegistryObject<PressurePlateBlock> ALEXANDRITE_PRESSURE_PLATE = registerBlock("alexandrite_pressure_plate",
             () -> new PressurePlateBlock(BlockSetType.IRON, BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops()));
     public static final RegistryObject<ButtonBlock> ALEXANDRITE_BUTTON = registerBlock("alexandrite_button",
-            () -> new ButtonBlock(BlockSetType.IRON,6, BlockBehaviour.Properties.of().strength(3f)
+            () -> new ButtonBlock(BlockSetType.IRON,1, BlockBehaviour.Properties.of().strength(3f)
                     .requiresCorrectToolForDrops().noCollission()));
 
     public static final RegistryObject<FenceBlock> ALEXANDRITE_FENCE = registerBlock("alexandrite_fence",

@@ -2,11 +2,11 @@ package net.boss.bossmod.item.custom;
 
 import net.boss.bossmod.block.ModBlocks;
 import net.boss.bossmod.component.ModDataComponentTypes;
+import net.boss.bossmod.sound.ModSounds;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -47,7 +47,7 @@ public class ChiselItem extends Item {
                 pContext.getItemInHand().hurtAndBreak(1, ((ServerLevel) level), ((ServerPlayer) pContext.getPlayer()),
                         item -> pContext.getPlayer().onEquippedItemBroken(item, EquipmentSlot.MAINHAND));
 
-                level.playSound(null, pContext.getClickedPos(), SoundEvents.GRINDSTONE_USE, SoundSource.BLOCKS);
+                level.playSound(null, pContext.getClickedPos(), ModSounds.CHISEL_USE.get(), SoundSource.BLOCKS);
 
                 pContext.getItemInHand().set(ModDataComponentTypes.COORDINATES.get(), pContext.getClickedPos());
             }
@@ -55,6 +55,7 @@ public class ChiselItem extends Item {
 
         return InteractionResult.SUCCESS;
     }
+
     @Override
     public void appendHoverText(ItemStack pStack, TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
         if(Screen.hasShiftDown()) {
@@ -68,6 +69,5 @@ public class ChiselItem extends Item {
         }
 
         super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);
-
-        }
+    }
 }
