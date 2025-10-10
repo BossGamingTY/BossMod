@@ -3,8 +3,10 @@ package net.boss.bossmod;
 import com.mojang.logging.LogUtils;
 import net.boss.bossmod.block.ModBlocks;
 import net.boss.bossmod.component.ModDataComponentTypes;
+import net.boss.bossmod.effect.ModEffects;
 import net.boss.bossmod.item.ModCreativeModeTabs;
 import net.boss.bossmod.item.ModItems;
+import net.boss.bossmod.potion.ModPotions;
 import net.boss.bossmod.sound.ModSounds;
 import net.boss.bossmod.util.ModItemProperties;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,10 +32,8 @@ public class BossMod {
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();
 
-
     public BossMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
@@ -42,9 +42,12 @@ public class BossMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
-        ModSounds.register(modEventBus);
 
         ModDataComponentTypes.register(modEventBus);
+        ModSounds.register(modEventBus);
+
+        ModEffects.register(modEventBus);
+        ModPotions.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -52,7 +55,7 @@ public class BossMod {
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {
+    private void commonSetup(final FMLCommonSetupEvent event)  {
 
     }
 
