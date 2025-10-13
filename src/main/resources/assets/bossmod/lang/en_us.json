@@ -3,9 +3,12 @@
   "item.bossmod.alexandrite": "Alexandrite Gem",
   "item.bossmod.raw_alexandrite": "Raw Alexandrite",
   "item.bossmod.chisel": "Chisel",
-  "item.bossmod.kohlrabi": "Kohlrabi",
   "item.bossmod.aurora_ashes": "Aurora ashes",
-  "item.bossmod.": "Aurora ashes",
+
+  //Food
+  "item.bossmod.kohlrabi": "Kohlrabi",
+  "block.bossmod.kohlrabi_crop": "Kohlrabi Crop",
+  "item.bossmod.kohlrabi_seeds": "Kohlrabi Seeds",
 
   //Music disk
   "item.bossmod.bar_brawl_music_disc": "Bar Brawl Music Disc",

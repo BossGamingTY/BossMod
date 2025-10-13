@@ -1,4 +1,4 @@
-// 1.21.1	2025-10-13T18:26:13.2809737	Item Models: bossmod
+// 1.21.1	2025-10-13T19:35:16.9275931	Item Models: bossmod
 af490201f421872a4ea492c70147be05d1f9ef3f assets/bossmod/models/item/alexandrite.json
 4b76cfd46622663016305e2d394f3bd80bf2bcb1 assets/bossmod/models/item/alexandrite_axe.json
 9ab3eac8d0a2c4327e050ce55ffd2fb0879637a3 assets/bossmod/models/item/alexandrite_boots.json
@@ -59,4 +59,5 @@ d6ffc9335fece265bc6a3956520c0efa4dc2b4b7 assets/bossmod/models/item/aurora_ashes
 9b6b44f5e48bcd5d2d07d529e703cd8969146768 assets/bossmod/models/item/bar_brawl_music_disc.json
 4898bff52f8131d7f3f9446a0120267b6438435c assets/bossmod/models/item/kaupen_armor_trim_smithing_template.json
 67b7587d1c11747f1940b3009b2cb5f824ba405b assets/bossmod/models/item/kohlrabi.json
+4930b9b2494f0f43cd7da275e5c848fd62df1a98 assets/bossmod/models/item/kohlrabi_seeds.json
 5e6c096836cc0bce298134846cf8b968ad733bf4 assets/bossmod/models/item/raw_alexandrite.json
