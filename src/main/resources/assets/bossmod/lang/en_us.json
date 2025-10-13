@@ -26,6 +26,9 @@
   "item.bossmod.alexandrite_hammer": "Alexandrite Hammer",
   "item.bossmod.kaupen_bow": "Kaupen Bow",
 
+  // Enchantments
+  "enchantment.bossmod.lightning_striker": "Lightning Striker",
+
   //Armour
   "item.bossmod.alexandrite_helmet": "Alexandrite Helmet",
   "item.bossmod.alexandrite_chestplate": "Alexandrite Chestplate",

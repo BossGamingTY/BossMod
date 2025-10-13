@@ -4,6 +4,8 @@ import com.mojang.logging.LogUtils;
 import net.boss.bossmod.block.ModBlocks;
 import net.boss.bossmod.component.ModDataComponentTypes;
 import net.boss.bossmod.effect.ModEffects;
+import net.boss.bossmod.enchantment.ModEnchantmentEffects;
+import net.boss.bossmod.enchantment.ModEnchantments;
 import net.boss.bossmod.item.ModCreativeModeTabs;
 import net.boss.bossmod.item.ModItems;
 import net.boss.bossmod.potion.ModPotions;
@@ -45,6 +47,8 @@ public class BossMod {
 
         ModDataComponentTypes.register(modEventBus);
         ModSounds.register(modEventBus);
+
+        ModEnchantmentEffects.register(modEventBus);
 
         ModEffects.register(modEventBus);
         ModPotions.register(modEventBus);
