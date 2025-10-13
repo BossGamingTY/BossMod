@@ -44,8 +44,6 @@
   //Blocks
   "block.bossmod.alexandrite_block": "Block of Alexandrite",
   "block.bossmod.raw_alexandrite_block": "Block of Raw Alexandrite",
-  "block.bossmod.alexandrite_ore": "Alexandrite Ore",
-  "block.bossmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
   "block.bossmod.magic_block": "Magic Block",
   "block.bossmod.alexandrite_stairs": "Alexandrite Stairs",
   "block.bossmod.alexandrite_slab": "Alexandrite Slab",
@@ -57,6 +55,12 @@
   "block.bossmod.alexandrite_door": "Alexandrite Door",
   "block.bossmod.alexandrite_trapdoor": "Alexandrite Trapdoor",
   "block.bossmod.alexandrite_lamp": "Alexandrite Lamp",
+
+  //Ores
+  "block.bossmod.alexandrite_ore": "Alexandrite Ore",
+  "block.bossmod.alexandrite_deepslate_ore": "Alexandrite Deepslate Ore",
+  "block.bossmod.alexandrite_nether_ore": "Alexandrite Nether Ore",
+  "block.bossmod.alexandrite_end_ore": "Alexandrite End Ore",
 
   //Paintings
   "painting.bossmod.world.title": "World",

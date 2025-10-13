@@ -4,6 +4,8 @@
     "bossmod:raw_alexandrite_block",
     "bossmod:alexandrite_ore",
     "bossmod:alexandrite_deepslate_ore",
+    "bossmod:alexandrite_nether_ore",
+    "bossmod:alexandrite_end_ore",
     "bossmod:magic_block"
   ]
 }

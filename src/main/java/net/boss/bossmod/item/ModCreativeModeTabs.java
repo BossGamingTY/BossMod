@@ -61,6 +61,9 @@ public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CRE
 
                         output.accept(ModBlocks.ALEXANDRITE_ORE.get());
                         output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
+                        output.accept(ModBlocks.ALEXANDRITE_NETHER_ORE.get());
+                        output.accept(ModBlocks.ALEXANDRITE_END_ORE.get());
+
 
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
 
