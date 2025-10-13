@@ -1,4 +1,4 @@
-// 1.21.1	2025-10-13T19:35:16.9281225	Loot Tables
+// 1.21.1	2025-10-13T20:03:59.7149673	Loot Tables
 e2d5ce1307ac22b632d57af1e2fe2be2e54d7db9 data/bossmod/loot_table/blocks/alexandrite_block.json
 9768b62e64cfc9ae88f4646e5901bb7c3faa732f data/bossmod/loot_table/blocks/alexandrite_button.json
 2564fe4bbe15894fa2c0d11c820ace1474668abe data/bossmod/loot_table/blocks/alexandrite_deepslate_ore.json
@@ -12,5 +12,6 @@ bb2cc89c82b1adc29730420acfacb55e3bcc8b9f data/bossmod/loot_table/blocks/alexandr
 271ac64aa823febe3929c977a5c675ef7af80e49 data/bossmod/loot_table/blocks/alexandrite_stairs.json
 fdc3027364f50a44615f3450d30b3331bb72bea3 data/bossmod/loot_table/blocks/alexandrite_trapdoor.json
 b0852688abf5b6efd2fd6031caeefbfa3411fdb2 data/bossmod/loot_table/blocks/alexandrite_wall.json
+5949541607dd6e3485b7791f128e8d917ae4e1dd data/bossmod/loot_table/blocks/honey_berry_bush.json
 8fb9d3f16a707db5fd7b36df1b3ff2894096f973 data/bossmod/loot_table/blocks/kohlrabi_crop.json
 707829debc03fac775170023694acdbfaef1a690 data/bossmod/loot_table/blocks/raw_alexandrite_block.json

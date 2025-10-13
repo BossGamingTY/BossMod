@@ -1,4 +1,4 @@
-// 1.21.1	2025-10-13T19:35:16.9256016	Block States: bossmod
+// 1.21.1	2025-10-13T20:03:59.7119666	Block States: bossmod
 bb9615bc6e13e88e1c7695d1f6898d20bb10d1eb assets/bossmod/blockstates/alexandrite_block.json
 587ceb9a19b8f936b849aa350c39ac67d696c1bb assets/bossmod/blockstates/alexandrite_button.json
 b7ba90052af3eff24c59300a1440b034115a1cbb assets/bossmod/blockstates/alexandrite_deepslate_ore.json
@@ -12,6 +12,7 @@ fc3e770571c5e52052708785d70a02d4c765ece5 assets/bossmod/blockstates/alexandrite_
 0a45be6c4d3ee7b8687b4e3999b05a1226683f3f assets/bossmod/blockstates/alexandrite_stairs.json
 aa38c4f733d62b8da9102439f3352caea36df982 assets/bossmod/blockstates/alexandrite_trapdoor.json
 fd4478b78d49405804ad600b0e80f3ca774fc821 assets/bossmod/blockstates/alexandrite_wall.json
+75e6321f6ef139684df343fd5e3b681cf395df00 assets/bossmod/blockstates/honey_berry_bush.json
 98a14d68a88774bd77901460a17a52606cec7ccc assets/bossmod/blockstates/kohlrabi_crop.json
 bae777cc9052d4455dd99fd112cd260a88e1e142 assets/bossmod/blockstates/magic_block.json
 16efbd85f2995ee7eba5d00fd6a57d429d4cdd51 assets/bossmod/blockstates/raw_alexandrite_block.json
@@ -49,6 +50,10 @@ a78a41c84bd24d9bb4382f723a1544e4fecf488d assets/bossmod/models/block/alexandrite
 412604d97a5ef94bc9f33479280902e6643abda3 assets/bossmod/models/block/alexandrite_wall_post.json
 b754a13818b66964ba37d0eced2d7be1cd2b300a assets/bossmod/models/block/alexandrite_wall_side.json
 91540986ebf5c11ce2b5bdaf7b5a8342c303961a assets/bossmod/models/block/alexandrite_wall_side_tall.json
+90e7cce861755b92a0a255e9292c7edb9702fdab assets/bossmod/models/block/honey_berry_bush_stage0.json
+1133d3091e877d5f1568463f42f99e61071b32b8 assets/bossmod/models/block/honey_berry_bush_stage1.json
+136313bfb7798ff8e4b0e3d4c08d1dc91e57ea2d assets/bossmod/models/block/honey_berry_bush_stage2.json
+7d746023e62085e8551558d6bcd6bbc19740acfc assets/bossmod/models/block/honey_berry_bush_stage3.json
 9e775719a44b50db6a7ccc2976b8e90601c9e142 assets/bossmod/models/block/kohlrabi_crop_stage0.json
 e51f75b94a067c03197cf3fd4b336c7ef91db5fa assets/bossmod/models/block/kohlrabi_crop_stage1.json
 289d668a7cfe56b0d3d12cd747a2bdedb9f08019 assets/bossmod/models/block/kohlrabi_crop_stage2.json

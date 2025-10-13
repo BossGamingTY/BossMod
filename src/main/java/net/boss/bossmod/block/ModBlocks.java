@@ -2,6 +2,7 @@ package net.boss.bossmod.block;
 
 import net.boss.bossmod.BossMod;
 import net.boss.bossmod.block.custom.AlexandriteLampBlock;
+import net.boss.bossmod.block.custom.HoneyBerryBushBlock;
 import net.boss.bossmod.block.custom.KohlrabiCropBlock;
 import net.boss.bossmod.block.custom.MagicBlock;
 import net.boss.bossmod.item.ModItems;
@@ -71,6 +72,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> KOHLRABI_CROP = BLOCKS.register("kohlrabi_crop",
             () -> new KohlrabiCropBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT)));
+    public static final RegistryObject<Block> HONEY_BERRY_BUSH = BLOCKS.register("honey_berry_bush",
+            () -> new HoneyBerryBushBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SWEET_BERRY_BUSH)));
 
 
 
