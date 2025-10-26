@@ -1,4 +1,4 @@
-// 1.21.1	2025-10-13T21:25:40.4024037	Registries
+// 1.21.1	2025-10-25T23:12:50.651236	Registries
 4fa486332c3de2694f22321f69313f2463517ea4 data/bossmod/enchantment/lightning_striker.json
 6e9c9e0f7c55913459866a68ceac404c5004002f data/bossmod/forge/biome_modifier/add_alexandrite_ore.json
 3f284444b8d078052f612e3a720da43d604409b9 data/bossmod/forge/biome_modifier/add_end_alexandrite_ore.json
@@ -10,4 +10,4 @@ de1e1cbcdef8a0a83b2302a3f903576041ae143e data/bossmod/trim_material/alexandrite.
 33a495e4b7aba894196651ec2f06812a3ce2021a data/bossmod/worldgen/configured_feature/nether_alexandrite_ore.json
 4be635db52e30656055935f4d6ddbd587f8ac37c data/bossmod/worldgen/placed_feature/alexandrite_ore_placed.json
 afd40cab2d412ad147b6ddfac8eec3044594d0fd data/bossmod/worldgen/placed_feature/end_alexandrite_ore_placed.json
-96dd55d98f558a2a604c5bcfd48a5e3317912605 data/bossmod/worldgen/placed_feature/nether_alexandrite_ore_placed.json
+9d1ae71aa9700607e56b553ad3033deae478de8c data/bossmod/worldgen/placed_feature/nether_alexandrite_ore_placed.json
