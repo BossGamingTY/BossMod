@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "AlexandriteStart": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:raw_alexandrite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "background": "bossmod:textures/block/alexandrite_block.png",
+    "description": {
+      "translate": "advancements.alexandrite.root.description"
+    },
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "bossmod:raw_alexandrite"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "AlexandriteStart"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
