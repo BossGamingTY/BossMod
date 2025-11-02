@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "bossmod:item/radiation_staff_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "bossmod:item/radiation_staff_2d"
+    },
+    "ground": {
+      "parent": "bossmod:item/radiation_staff_2d"
+    },
+    //in item frame
+    "fixed": {
+      "parent": "bossmod:item/radiation_staff_2d"
+    }
+  }
+}
