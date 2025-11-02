@@ -1,0 +1,33 @@
+{
+  "parent": "bossmod:alexandrite/alexandrite2",
+  "criteria": {
+    "Chisel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:chisel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.chisel.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "bossmod:chisel"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.chisel.title"
+    }
+  },
+  "requirements": [
+    [
+      "Chisel"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

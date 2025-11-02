@@ -1,0 +1,33 @@
+{
+  "parent": "bossmod:alexandrite/alexandrite_pickaxe",
+  "criteria": {
+    "AlexandriteSword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:alexandrite_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.alexandrite_sword.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "bossmod:alexandrite_sword"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.alexandrite_sword.title"
+    }
+  },
+  "requirements": [
+    [
+      "AlexandriteSword"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

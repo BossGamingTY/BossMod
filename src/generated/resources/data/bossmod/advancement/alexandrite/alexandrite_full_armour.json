@@ -1,0 +1,43 @@
+{
+  "parent": "bossmod:alexandrite/alexandrite_helmet",
+  "criteria": {
+    "Alexandrite_full_armour": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:alexandrite_boots"
+          },
+          {
+            "items": "bossmod:alexandrite_leggings"
+          },
+          {
+            "items": "bossmod:alexandrite_chestplate"
+          },
+          {
+            "items": "bossmod:alexandrite_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.alexandrite_full_armour.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "bossmod:alexandrite_chestplate"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.alexandrite_full_armour.title"
+    }
+  },
+  "requirements": [
+    [
+      "Alexandrite_full_armour"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

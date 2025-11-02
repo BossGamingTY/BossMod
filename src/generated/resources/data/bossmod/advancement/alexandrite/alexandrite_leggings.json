@@ -1,0 +1,33 @@
+{
+  "parent": "bossmod:alexandrite/alexandrite_boots",
+  "criteria": {
+    "Alexandrite_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:alexandrite_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.alexandrite_leggings.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "bossmod:alexandrite_leggings"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.alexandrite_leggings.title"
+    }
+  },
+  "requirements": [
+    [
+      "Alexandrite_leggings"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

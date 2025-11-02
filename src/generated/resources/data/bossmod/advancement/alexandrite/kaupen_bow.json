@@ -1,0 +1,33 @@
+{
+  "parent": "bossmod:alexandrite/alexandrite_sword",
+  "criteria": {
+    "KaupenBow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:kaupen_bow"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.kaupen_bow.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "bossmod:kaupen_bow"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.kaupen_bow.title"
+    }
+  },
+  "requirements": [
+    [
+      "KaupenBow"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

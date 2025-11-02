@@ -1,0 +1,33 @@
+{
+  "parent": "bossmod:alexandrite/alexandrite_pickaxe",
+  "criteria": {
+    "AlexandriteHammer": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:alexandrite_hammer"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.alexandrite_hammer.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "bossmod:alexandrite_hammer"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.alexandrite_hammer.title"
+    }
+  },
+  "requirements": [
+    [
+      "AlexandriteHammer"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "bossmod:alexandrite/alexandrite_sword",
+  "criteria": {
+    "AlexandriteAxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:alexandrite_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.alexandrite_axe.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "bossmod:alexandrite_axe"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.alexandrite_axe.title"
+    }
+  },
+  "requirements": [
+    [
+      "AlexandriteAxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

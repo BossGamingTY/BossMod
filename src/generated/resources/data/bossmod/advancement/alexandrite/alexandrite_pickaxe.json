@@ -1,0 +1,33 @@
+{
+  "parent": "bossmod:alexandrite/alexandrite2",
+  "criteria": {
+    "AlexandritePickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:alexandrite_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.alexandrite_pickaxe.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "bossmod:alexandrite_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.alexandrite_pickaxe.title"
+    }
+  },
+  "requirements": [
+    [
+      "AlexandritePickaxe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

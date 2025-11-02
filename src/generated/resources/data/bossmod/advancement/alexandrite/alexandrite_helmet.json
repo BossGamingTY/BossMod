@@ -1,0 +1,33 @@
+{
+  "parent": "bossmod:alexandrite/alexandrite_chestplate",
+  "criteria": {
+    "Alexandrite_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:alexandrite_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.alexandrite_helmet.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "bossmod:alexandrite_helmet"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.alexandrite_helmet.title"
+    }
+  },
+  "requirements": [
+    [
+      "Alexandrite_helmet"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

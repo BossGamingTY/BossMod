@@ -1,0 +1,33 @@
+{
+  "parent": "bossmod:alexandrite/alexandrite_full_armour",
+  "criteria": {
+    "kaupen_smithing_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:kaupen_armor_trim_smithing_template"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.kaupen_smithing_template.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "bossmod:kaupen_armor_trim_smithing_template"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.kaupen_smithing_template.title"
+    }
+  },
+  "requirements": [
+    [
+      "kaupen_smithing_template"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

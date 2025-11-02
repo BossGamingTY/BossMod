@@ -1,0 +1,33 @@
+{
+  "parent": "bossmod:alexandrite/alexandrite2",
+  "criteria": {
+    "Alexandrite_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:alexandrite_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.alexandrite_boots.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "bossmod:alexandrite_boots"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.alexandrite_boots.title"
+    }
+  },
+  "requirements": [
+    [
+      "Alexandrite_boots"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "bossmod:alexandrite/root",
+  "criteria": {
+    "Alexandrite2": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:alexandrite"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.smeltalexandrite.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "bossmod:alexandrite"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.smeltalexandrite.title"
+    }
+  },
+  "requirements": [
+    [
+      "Alexandrite2"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
