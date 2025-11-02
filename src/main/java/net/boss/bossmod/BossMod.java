@@ -30,7 +30,6 @@ import org.slf4j.Logger;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(BossMod.MOD_ID)
 public class BossMod {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "bossmod";
     // Directly reference a slf4j logger
     public static final Logger LOGGER = LogUtils.getLogger();

@@ -16,6 +16,7 @@
     "description": {
       "translate": "advancements.alexandrite.root.description"
     },
+    "frame": "goal",
     "hidden": true,
     "icon": {
       "count": 1,
