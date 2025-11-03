@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "O": {
+      "item": "bossmod:radiation_orb"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " SO",
+    " SS",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "bossmod:radiation_staff"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "parent": "bossmod:alexandrite/magic_block",
+  "criteria": {
+    "radiation_orb": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:radiation_orb"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.radiation_orb.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "bossmod:radiation_orb"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.radiation_orb.title"
+    }
+  },
+  "requirements": [
+    [
+      "radiation_orb"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

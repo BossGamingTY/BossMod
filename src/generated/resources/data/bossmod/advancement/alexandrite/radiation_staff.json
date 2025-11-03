@@ -1,0 +1,33 @@
+{
+  "parent": "bossmod:alexandrite/radiation_orb",
+  "criteria": {
+    "Radiation_staff": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:radiation_staff"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.radiation_staff.description"
+    },
+    "icon": {
+      "count": 1,
+      "id": "bossmod:radiation_staff"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.radiation_staff.title"
+    }
+  },
+  "requirements": [
+    [
+      "Radiation_staff"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
