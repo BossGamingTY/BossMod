@@ -1,4 +1,4 @@
-// 1.21.1	2025-11-01T19:52:22.8534619	Advancements
+// 1.21.1	2025-11-03T19:20:04.1869624	Advancements
 a082619e126db4cc64e88d346d2fb45b8bd596f7 data/bossmod/advancement/alexandrite/alexandrite2.json
 e2da0b53f93771375c7e27a950b9791699476f81 data/bossmod/advancement/alexandrite/alexandrite_axe.json
 4ce29fd8393e39e21e9e5109d9d55efff79a70fc data/bossmod/advancement/alexandrite/alexandrite_boots.json
@@ -13,4 +13,6 @@ b7d42cf857d977db3c59ddbd871684cbaf95e674 data/bossmod/advancement/alexandrite/al
 d951808cfb770386083c48bb4d8d3a977fcd7c74 data/bossmod/advancement/alexandrite/kaupen_bow.json
 8e8543784f0b31d8d23ecf984c41614cbc6a1109 data/bossmod/advancement/alexandrite/kaupen_smithing_template.json
 1d50c8ee92f0aea4699607f58c1805d212222050 data/bossmod/advancement/alexandrite/magic_block.json
+bf43b6ca605b9a22f535477bd24c25e5383903aa data/bossmod/advancement/alexandrite/radiation_orb.json
+828da093acc3ddc57c58db28c108f3563bd2a38d data/bossmod/advancement/alexandrite/radiation_staff.json
 f5831aa521ce827a044c37cddd54f24fb1c5c66e data/bossmod/advancement/alexandrite/root.json

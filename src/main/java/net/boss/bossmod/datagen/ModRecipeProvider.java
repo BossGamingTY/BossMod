@@ -176,6 +176,22 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('D', Items.DIAMOND)
                 .define('K', ModItems.KAUPEN_SMITHING_TEMPLATE.get())
                 .unlockedBy(getHasName(ModItems.KAUPEN_SMITHING_TEMPLATE.get()), has(ModItems.KAUPEN_SMITHING_TEMPLATE.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RADIATION_ORB.get(), 1)
+                .pattern("AAA")
+                .pattern("AMA")
+                .pattern("AAA")
+                .define('M', ModBlocks.MAGIC_BLOCK.get())
+                .define('A', ModBlocks.ALEXANDRITE_BLOCK.get())
+                .unlockedBy(getHasName(ModBlocks.MAGIC_BLOCK.get()), has(ModBlocks.MAGIC_BLOCK.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RADIATION_STAFF.get(), 1)
+                .pattern(" SO")
+                .pattern(" SS")
+                .pattern("S  ")
+                .define('O', ModItems.RADIATION_ORB.get())
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(ModItems.RADIATION_ORB.get()), has(ModItems.RADIATION_ORB.get())).save(pRecipeOutput);
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

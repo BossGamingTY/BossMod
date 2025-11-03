@@ -30,6 +30,9 @@
   "item.bossmod.alexandrite_hoe": "Alexandrite Hoe",
   "item.bossmod.alexandrite_hammer": "Alexandrite Hammer",
   "item.bossmod.kaupen_bow": "Kaupen Bow",
+
+  //Magic
+  "item.bossmod.radiation_orb": "Radiation Orb",
   "item.bossmod.radiation_staff": "Radiation Staff",
 
   // Enchantments
@@ -108,6 +111,10 @@
   "advancements.alexandrite.alexandrite_sword.description": "Craft a Alexandrite Sword",
   "advancements.alexandrite.kaupen_bow.title": "Alexandrite bow upgrade",
   "advancements.alexandrite.kaupen_bow.description": "Upgrade your bow into Kaupen bow",
+  "advancements.alexandrite.radiation_orb.title": "Radiation Orb",
+  "advancements.alexandrite.radiation_orb.description": "§9Magical§r orb!",
+  "advancements.alexandrite.radiation_staff.title": "Fire magic",
+  "advancements.alexandrite.radiation_staff.description": "Shoot fire balls!",
 
   //Tooltips
   "tooltip.bossmod.magic_block.tooltip": "This Block is quite §9MAGICAL§r",

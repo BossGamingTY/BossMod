@@ -66,6 +66,26 @@ public class ModAdvancementProvider extends ForgeAdvancementProvider {
                     .addCriterion("MagicBlock", InventoryChangeTrigger.TriggerInstance.hasItems(ModBlocks.MAGIC_BLOCK.get()))
                     .save(consumer, ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "alexandrite/magic_block"));
 
+            AdvancementHolder radiation_orb = Advancement.Builder.advancement()
+                    .parent(magic_block)
+                    .display(ModItems.RADIATION_ORB.get(),
+                            Component.translatable("advancements.alexandrite.radiation_orb.title"),
+                            Component.translatable("advancements.alexandrite.radiation_orb.description"),
+                            null,
+                            AdvancementType.TASK, true, true, false)
+                    .addCriterion("radiation_orb", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.RADIATION_ORB.get()))
+                    .save(consumer, ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "alexandrite/radiation_orb"));
+
+            AdvancementHolder radiation_staff = Advancement.Builder.advancement()
+                    .parent(radiation_orb)
+                    .display(ModItems.RADIATION_STAFF.get(),
+                            Component.translatable("advancements.alexandrite.radiation_staff.title"),
+                            Component.translatable("advancements.alexandrite.radiation_staff.description"),
+                            null,
+                            AdvancementType.TASK, true, true, false)
+                    .addCriterion("Radiation_staff", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.RADIATION_STAFF.get()))
+                    .save(consumer, ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "alexandrite/radiation_staff"));
+
             AdvancementHolder alexandrite_boots = Advancement.Builder.advancement()
                     .parent(alexandrite2)
                     .display(ModItems.ALEXANDRITE_BOOTS.get(),
