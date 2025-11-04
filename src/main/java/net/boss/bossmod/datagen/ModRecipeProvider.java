@@ -177,13 +177,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('K', ModItems.KAUPEN_SMITHING_TEMPLATE.get())
                 .unlockedBy(getHasName(ModItems.KAUPEN_SMITHING_TEMPLATE.get()), has(ModItems.KAUPEN_SMITHING_TEMPLATE.get())).save(pRecipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RADIATION_ORB.get(), 1)
-                .pattern("AAA")
-                .pattern("AMA")
-                .pattern("AAA")
-                .define('M', ModBlocks.MAGIC_BLOCK.get())
-                .define('A', ModBlocks.ALEXANDRITE_BLOCK.get())
-                .unlockedBy(getHasName(ModBlocks.MAGIC_BLOCK.get()), has(ModBlocks.MAGIC_BLOCK.get())).save(pRecipeOutput);
+//      ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RADIATION_ORB.get(), 1)
+//              .pattern("AAA")
+//              .pattern("AMA")
+//              .pattern("AAA")
+//              .define('M', ModBlocks.MAGIC_BLOCK.get())
+//              .define('A', ModBlocks.ALEXANDRITE_BLOCK.get())
+//              .unlockedBy(getHasName(ModBlocks.MAGIC_BLOCK.get()), has(ModBlocks.MAGIC_BLOCK.get())).save(pRecipeOutput);
 
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RADIATION_STAFF.get(), 1)
                 .pattern(" SO")

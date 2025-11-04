@@ -11,6 +11,7 @@ import net.boss.bossmod.item.ModItems;
 import net.boss.bossmod.potion.ModPotions;
 import net.boss.bossmod.sound.ModSounds;
 import net.boss.bossmod.util.ModItemProperties;
+import net.boss.bossmod.villager.ModVillagers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraftforge.api.distmarker.Dist;
@@ -52,6 +53,8 @@ public class BossMod {
 
         ModEffects.register(modEventBus);
         ModPotions.register(modEventBus);
+
+        ModVillagers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

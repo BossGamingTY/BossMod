@@ -1,4 +1,8 @@
 {
+  //Creative tabs
+  "creativetab.bossmod.alexandrite_items": "Alexandrite Items",
+  "creativetab.bossmod.alexandrite_blocks": "Alexandrite Blocks",
+
   //Items
   "item.bossmod.alexandrite": "Alexandrite Gem",
   "item.bossmod.raw_alexandrite": "Raw Alexandrite",
@@ -45,6 +49,11 @@
   "item.bossmod.alexandrite_boots": "Alexandrite Boots",
   "item.bossmod.alexandrite_horse_armor": "Alexandrite Horse Armour",
 
+  //Armor trims
+  "item.bossmod.kaupen_armor_trim_smithing_template": "Kaupen Trim Template",
+  "trim_pattern.bossmod.kaupen": "Kaupen Armor Trim",
+  "trim_material.bossmod.alexandrite": "Alexandrite Material",
+
   //Blocks
   "block.bossmod.alexandrite_block": "Block of Alexandrite",
   "block.bossmod.raw_alexandrite_block": "Block of Raw Alexandrite",
@@ -74,9 +83,14 @@
   "painting.bossmod.saw_them.title": "Saw Them",
   "painting.bossmod.saw_them.author": "NanoAttack",
 
-  //Creative tabs
-  "creativetab.bossmod.alexandrite_items": "Alexandrite Items",
-  "creativetab.bossmod.alexandrite_blocks": "Alexandrite Blocks",
+  //Entity
+  "entity.minecraft.villager.bossmod.kaupenger": "Kaupenger",
+
+  //Tooltips
+  "tooltip.bossmod.magic_block.tooltip": "This Block is quite §9MAGICAL§r",
+  "tooltip.bossmod.chisel.shift_down": "This Item changes certain Blocks",
+  "tooltip.bossmod.chisel": "Press §eShift§r for more Information!",
+  "tooltip.bossmod.kohlrabi": "This tastes GREAT!",
 
   //Advancements
   "advancements.alexandrite.root.title": "Alexandrite",
@@ -114,16 +128,5 @@
   "advancements.alexandrite.radiation_orb.title": "Radiation Orb",
   "advancements.alexandrite.radiation_orb.description": "§9Magical§r orb!",
   "advancements.alexandrite.radiation_staff.title": "Fire magic",
-  "advancements.alexandrite.radiation_staff.description": "Shoot fire balls!",
-
-  //Tooltips
-  "tooltip.bossmod.magic_block.tooltip": "This Block is quite §9MAGICAL§r",
-  "tooltip.bossmod.chisel.shift_down": "This Item changes certain Blocks",
-  "tooltip.bossmod.chisel": "Press §eShift§r for more Information!",
-  "tooltip.bossmod.kohlrabi": "This tastes GREAT!",
-
-  //Armor trims
-  "item.bossmod.kaupen_armor_trim_smithing_template": "Kaupen Trim Template",
-  "trim_pattern.bossmod.kaupen": "Kaupen Armor Trim",
-  "trim_material.bossmod.alexandrite": "Alexandrite Material"
+  "advancements.alexandrite.radiation_staff.description": "Shoot fire balls!"
 }

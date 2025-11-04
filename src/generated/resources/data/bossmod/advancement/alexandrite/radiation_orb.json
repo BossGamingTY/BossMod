@@ -16,6 +16,7 @@
     "description": {
       "translate": "advancements.alexandrite.radiation_orb.description"
     },
+    "hidden": true,
     "icon": {
       "count": 1,
       "id": "bossmod:radiation_orb"

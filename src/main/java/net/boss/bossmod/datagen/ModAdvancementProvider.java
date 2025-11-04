@@ -72,7 +72,7 @@ public class ModAdvancementProvider extends ForgeAdvancementProvider {
                             Component.translatable("advancements.alexandrite.radiation_orb.title"),
                             Component.translatable("advancements.alexandrite.radiation_orb.description"),
                             null,
-                            AdvancementType.TASK, true, true, false)
+                            AdvancementType.TASK, true, true, true)
                     .addCriterion("radiation_orb", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.RADIATION_ORB.get()))
                     .save(consumer, ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "alexandrite/radiation_orb"));
 
@@ -82,7 +82,7 @@ public class ModAdvancementProvider extends ForgeAdvancementProvider {
                             Component.translatable("advancements.alexandrite.radiation_staff.title"),
                             Component.translatable("advancements.alexandrite.radiation_staff.description"),
                             null,
-                            AdvancementType.TASK, true, true, false)
+                            AdvancementType.TASK, true, true, true)
                     .addCriterion("Radiation_staff", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.RADIATION_STAFF.get()))
                     .save(consumer, ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "alexandrite/radiation_staff"));
 

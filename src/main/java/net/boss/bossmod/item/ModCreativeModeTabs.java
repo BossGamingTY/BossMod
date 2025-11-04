@@ -30,6 +30,7 @@ public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
 
                         output.accept(ModItems.ALEXANDRITE_SWORD.get());
                         output.accept(ModItems.ALEXANDRITE_PICKAXE.get());
+                        output.accept(ModItems.ALEXANDRITE_HAMMER.get());
                         output.accept(ModItems.ALEXANDRITE_SHOVEL.get());
                         output.accept(ModItems.ALEXANDRITE_AXE.get());
                         output.accept(ModItems.ALEXANDRITE_HOE.get());
@@ -37,8 +38,6 @@ public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
 
                         output.accept(ModItems.RADIATION_ORB.get());
                         output.accept(ModItems.RADIATION_STAFF.get());
-
-                        output.accept(ModItems.ALEXANDRITE_HAMMER.get());
 
                         output.accept(ModItems.ALEXANDRITE_HELMET.get());
                         output.accept(ModItems.ALEXANDRITE_CHESTPLATE.get());
