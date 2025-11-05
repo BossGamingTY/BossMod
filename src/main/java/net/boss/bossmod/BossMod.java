@@ -8,6 +8,7 @@ import net.boss.bossmod.enchantment.ModEnchantmentEffects;
 import net.boss.bossmod.enchantment.ModEnchantments;
 import net.boss.bossmod.item.ModCreativeModeTabs;
 import net.boss.bossmod.item.ModItems;
+import net.boss.bossmod.loot.ModLootModifiers;
 import net.boss.bossmod.potion.ModPotions;
 import net.boss.bossmod.sound.ModSounds;
 import net.boss.bossmod.util.ModItemProperties;
@@ -55,6 +56,8 @@ public class BossMod {
         ModPotions.register(modEventBus);
 
         ModVillagers.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

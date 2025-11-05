@@ -16,10 +16,6 @@
   "item.bossmod.honey_berries": "Honey Berries",
   "block.bossmod.honey_berry_bush": "Honey Berry Bush",
 
-  //Music disk
-  "item.bossmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
-  "item.bossmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
-
   //Potion
   "effect.bossmod.slimey": "Slimey",
   "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
@@ -85,6 +81,18 @@
 
   //Entity
   "entity.minecraft.villager.bossmod.kaupenger": "Kaupenger",
+
+  //Music disk
+  "item.bossmod.bar_brawl_music_disc": "Bar Brawl Music Disc",
+  "item.bossmod.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  //Sounds
+  "sounds.bossmod.magic_block_break": "Magic Block Break",
+  "sounds.bossmod.magic_block_step": "Step on Magic Block",
+  "sounds.bossmod.magic_block_place": "Place Magic Block",
+  "sounds.bossmod.magic_block_hit": "Hit Magic Block",
+  "sounds.bossmod.magic_block_fall": "Fall on Magic Block",
+  "sounds.bossmod.chisel_use": "Chisel use",
 
   //Tooltips
   "tooltip.bossmod.magic_block.tooltip": "This Block is quite §9MAGICAL§r",
