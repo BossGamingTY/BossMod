@@ -1,0 +1,9 @@
+{
+  "entries": [
+    "bossmod:kohlrabi_from_creeper",
+    "bossmod:kohlrabi_seeds_from_short_grass",
+    "bossmod:chisel_from_jungle_temple",
+    "bossmod:kohlrabi_seeds_to_tall_grass"
+  ],
+  "replace": false
+}
