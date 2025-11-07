@@ -1,6 +1,6 @@
-// 1.21.1	2025-11-04T23:32:18.7671176	Global Loot Modifiers : bossmod
-3b0afba2f4a91ac3aa45da8fad43e2ad5ba83720 data/bossmod/loot_modifiers/chisel_from_jungle_temple.json
+// 1.21.1	2025-11-05T18:08:15.3348862	Global Loot Modifiers : bossmod
+0e69be4e570b8b71228ac429d6c4fe8779c64cff data/bossmod/loot_modifiers/alexandrite_from_jungle_temple.json
 8ea299fa2d4112be1c2686ad60d90d4f8716042b data/bossmod/loot_modifiers/kohlrabi_from_creeper.json
 c5265c6ebb8526d4ee43902fcfbb7503f869f30d data/bossmod/loot_modifiers/kohlrabi_seeds_from_short_grass.json
 861ef2a35311326eeca9e5d987327adc0ad0471c data/bossmod/loot_modifiers/kohlrabi_seeds_to_tall_grass.json
-b48a48ca01e4cab173828e99d55bc0a2dc532942 data/forge/loot_modifiers/global_loot_modifiers.json
+50f4d69d0f4908bc6c551fe6c186eed3b1b5578e data/forge/loot_modifiers/global_loot_modifiers.json
