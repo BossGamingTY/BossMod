@@ -14,6 +14,8 @@ Content in mod:
 
 -Custom Trim (can use alexandrite for trim material)
 
+-More Advancements
+
 
 Serie I am following: https://www.youtube.com/playlist?list=PLKGarocXCE1GspJBXQEGuhazihZCSSLmK
 
