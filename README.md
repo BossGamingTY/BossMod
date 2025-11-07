@@ -31,6 +31,6 @@ Later update content (only creative currently)
 
 -Custom Fuel
 
--Magic staff
+-Magic staff (include 2d animatied icon and 3d staff)
 
 <img width="1825" height="468" alt="image" src="https://github.com/user-attachments/assets/5e4fd2c9-faa6-4930-b07b-2eb833462edc" />
