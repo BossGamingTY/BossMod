@@ -7,6 +7,7 @@ Content in mod:
 -Advance magic block (END_STONE -> END_STONE_BRICKS)
 -Advance item called a chisel which can do most of what the magic block can do
 -Custom Ores (Stone, deepslate, netherack and endstone versions)
+
 -Custom Trim (can use alexandrite for trim material)
 
 Later update content (only creative currently)
