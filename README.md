@@ -14,6 +14,8 @@ Content in mod:
 
 -Custom Trim (can use alexandrite for trim material)
 
+-3 Paintings
+
 -More Advancements
 
 
