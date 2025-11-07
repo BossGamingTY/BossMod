@@ -17,7 +17,6 @@ Content in mod:
 -Custom Trim (can use alexandrite for trim material)
 
 
-
 Later update content (only creative currently)
 
 -Alexandrite Lamp
