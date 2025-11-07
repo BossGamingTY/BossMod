@@ -15,8 +15,8 @@ Content in mod:
 -Custom Ores (Stone, deepslate, netherack and endstone versions)
 
 -Custom Trim (can use alexandrite for trim material)
-
-
+ 
+ 
 Later update content (only creative currently)
 
 -Alexandrite Lamp
