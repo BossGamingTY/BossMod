@@ -1,5 +1,3 @@
-Serie I am following: https://www.youtube.com/playlist?list=PLKGarocXCE1GspJBXQEGuhazihZCSSLmK
-
 Content in mod:
 
 -Alexandrite Building Blocks
@@ -15,9 +13,12 @@ Content in mod:
 -Custom Ores (Stone, deepslate, netherack and endstone versions)
 
 -Custom Trim (can use alexandrite for trim material)
-            
 
-            
+
+Serie I am following: https://www.youtube.com/playlist?list=PLKGarocXCE1GspJBXQEGuhazihZCSSLmK
+
+
+    
 Later update content (only creative currently)
 
 -Alexandrite Lamp
