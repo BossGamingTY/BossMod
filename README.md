@@ -1,4 +1,4 @@
-Content in mod:
+Content in latest version of the mod:
 
 -Alexandrite Building Blocks
 
@@ -18,6 +18,16 @@ Content in mod:
 
 -More Advancements
 
+-2 enchantments
+
+-Music disk
+
+-Custom Food
+
+-Custom Fuel
+
+-Alexandrite Lamp
+
 
 Serie I am following: https://www.youtube.com/playlist?list=PLKGarocXCE1GspJBXQEGuhazihZCSSLmK
 
@@ -25,13 +35,7 @@ Serie I am following: https://www.youtube.com/playlist?list=PLKGarocXCE1GspJBXQE
     
 Later update content (only creative currently)
 
--Alexandrite Lamp
-
--Music disk
-
--Custom Food
-
--Custom Fuel
+-Enchantments in structures
 
 -Magic staff (include 2d animatied icon and 3d staff)
 
