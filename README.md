@@ -33,7 +33,7 @@ Serie I am following: https://www.youtube.com/playlist?list=PLKGarocXCE1GspJBXQE
 
 
     
-Later update content (only creative currently)
+Later update content (planned or only creative currently)
 
 -Enchantments in structures
 
