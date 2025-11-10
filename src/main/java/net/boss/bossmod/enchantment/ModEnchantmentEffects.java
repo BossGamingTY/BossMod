@@ -2,6 +2,7 @@ package net.boss.bossmod.enchantment;
 
 import com.mojang.serialization.MapCodec;
 import net.boss.bossmod.BossMod;
+import net.boss.bossmod.enchantment.custom.ExplosiveEnchantmentEffect;
 import net.boss.bossmod.enchantment.custom.LightningStrikerEnchantmentEffect;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.enchantment.effects.EnchantmentEntityEffect;
@@ -15,6 +16,8 @@ public class ModEnchantmentEffects {
 
     public static final RegistryObject<MapCodec<? extends EnchantmentEntityEffect>> LIGHTNING_STRIKER =
             ENTITY_ENCHANTMENT_EFFECTS.register("lightning_striker", () -> LightningStrikerEnchantmentEffect.CODEC);
+    public static final RegistryObject<MapCodec<? extends EnchantmentEntityEffect>> EXPLOSIVE =
+            ENTITY_ENCHANTMENT_EFFECTS.register("explosive", () -> ExplosiveEnchantmentEffect.CODEC);
 
 
     public static void register(IEventBus eventBus) {

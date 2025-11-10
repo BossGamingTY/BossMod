@@ -17,7 +17,7 @@ public class HealCommand {
 
     public  static void register(CommandDispatcher<CommandSourceStack> dispatcher) {
         dispatcher.register(
-                Commands.literal("heal").requires(CommandSourceStack -> CommandSourceStack.hasPermission(4))
+                Commands.literal("heal").requires(CommandSourceStack -> CommandSourceStack.hasPermission(2))
                         .then(Commands.argument("amount", IntegerArgumentType.integer(1, 100)).executes(HealCommand::healSelfWithAmount)
                                 .then(Commands.argument("types", EntityArgument.entities()).executes(HealCommand::healOthers)))
         );

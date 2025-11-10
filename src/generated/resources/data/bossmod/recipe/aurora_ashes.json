@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "bossmod:alexandrite"
+    },
+    "C": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "pattern": [
+    " A ",
+    "ACA",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "bossmod:aurora_ashes"
+  }
+}

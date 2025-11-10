@@ -1,6 +1,7 @@
 package net.boss.bossmod.enchantment;
 
 import net.boss.bossmod.BossMod;
+import net.boss.bossmod.enchantment.custom.ExplosiveEnchantmentEffect;
 import net.boss.bossmod.enchantment.custom.LightningStrikerEnchantmentEffect;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
@@ -16,6 +17,8 @@ import net.minecraft.world.item.enchantment.EnchantmentTarget;
 public class ModEnchantments {
     public static final ResourceKey<Enchantment> LIGHTNING_STRIKER = ResourceKey.create(Registries.ENCHANTMENT,
             ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "lightning_striker"));
+    public static final ResourceKey<Enchantment> EXPLOSIVE = ResourceKey.create(Registries.ENCHANTMENT,
+            ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "explosive"));
 
     public static void bootstrap(BootstrapContext<Enchantment> context) {
         var enchantments = context.lookup(Registries.ENCHANTMENT);
@@ -34,9 +37,22 @@ public class ModEnchantments {
                 .withEffect(EnchantmentEffectComponents.POST_ATTACK, EnchantmentTarget.ATTACKER,
                         EnchantmentTarget.VICTIM, new LightningStrikerEnchantmentEffect()));
 
+        register(context, EXPLOSIVE, Enchantment.enchantment(Enchantment.definition(
+                        items.getOrThrow(ItemTags.WEAPON_ENCHANTABLE),
+//                        items.getOrThrow(ItemTags.SWORD_ENCHANTABLE),
+                        items.getOrThrow(ItemTags.BOW_ENCHANTABLE),
+                        6,
+                        3,
+                        Enchantment.dynamicCost(7, 9),
+                        Enchantment.dynamicCost(35, 9),
+                        3,
+                        EquipmentSlotGroup.MAINHAND))
+                .exclusiveWith(enchantments.getOrThrow(EnchantmentTags.DAMAGE_EXCLUSIVE))
+                .withEffect(EnchantmentEffectComponents.POST_ATTACK, EnchantmentTarget.ATTACKER,
+                        EnchantmentTarget.VICTIM, new ExplosiveEnchantmentEffect()));
     }
 
-    private static void register(BootstrapContext<Enchantment> registry, ResourceKey<Enchantment> key, Enchantment.Builder builder) {
+private static void register(BootstrapContext<Enchantment> registry, ResourceKey<Enchantment> key, Enchantment.Builder builder) {
         registry.register(key, builder.build(key.location()));
     }
 }

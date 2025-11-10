@@ -28,7 +28,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> AURORA_ASHES = ITEMS.register("aurora_ashes",
-            () -> new FuelItem(new Item.Properties(), 5000));
+            () -> new FuelItem(new Item.Properties(), 25000));
 
     public static final RegistryObject<Item> ALEXANDRITE_SWORD = ITEMS.register("alexandrite_sword",
             () -> new SwordItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
