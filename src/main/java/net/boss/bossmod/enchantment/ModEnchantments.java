@@ -39,7 +39,6 @@ public class ModEnchantments {
 
         register(context, EXPLOSIVE, Enchantment.enchantment(Enchantment.definition(
                         items.getOrThrow(ItemTags.WEAPON_ENCHANTABLE),
-//                        items.getOrThrow(ItemTags.SWORD_ENCHANTABLE),
                         items.getOrThrow(ItemTags.BOW_ENCHANTABLE),
                         6,
                         3,
