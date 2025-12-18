@@ -34,11 +34,8 @@ Serie I am following: https://www.youtube.com/playlist?list=PLKGarocXCE1GspJBXQE
 
     
 Later update content (planned or only creative currently)
-
 - Enchantments in structures
-
 - Magic staff (include 2d animatied icon and 3d staff)
-
 - Syrup and butter
 
 <img width="1825" height="468" alt="image" src="https://github.com/user-attachments/assets/5e4fd2c9-faa6-4930-b07b-2eb833462edc" />
