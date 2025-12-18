@@ -1,7 +1,10 @@
 All thing this mod added:
 - Alexandrite Building Blocks
 - Alexandrite armour (and horse armour)
-- Alexandrite tools (Normal tools and customs like the upgraded bow and the hammer that can mine 3x3)
+- Alexandrite tool
+- Upgraded bow (using alexandrite)
+- Alexandrite Hammer (mine 3x3)
+- Advance tools (sword only for now)
 - Advance magic block (END_STONE -> END_STONE_BRICKS)
 - Advance item called a chisel which can do most of what the magic block can do
 - Custom Ores (Stone, deepslate, netherack and endstone versions)
