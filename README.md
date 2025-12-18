@@ -1,4 +1,4 @@
-Content in latest version of the mod:
+All thing this mod added:
 - Alexandrite Building Blocks
 - Alexandrite armour (and horse armour)
 - Alexandrite tools (Normal tools and customs like the upgraded bow and the hammer that can mine 3x3)
