@@ -1,6 +1,7 @@
-// 1.21.1	2025-11-10T00:41:53.0420935	Registries
-04e83ba83d59cba67a40deb15ff68c9f78b853bc data/bossmod/enchantment/explosive.json
+// 1.21.1	2025-12-14T23:52:48.5060933	Registries
+73014f251ea4268682862f92c977f722684373ea data/bossmod/enchantment/explosive.json
 4fa486332c3de2694f22321f69313f2463517ea4 data/bossmod/enchantment/lightning_striker.json
+7cc60ef07fdc95c12dd6cb3bf332310426387d1d data/bossmod/enchantment/tunnel.json
 6e9c9e0f7c55913459866a68ceac404c5004002f data/bossmod/forge/biome_modifier/add_alexandrite_ore.json
 3f284444b8d078052f612e3a720da43d604409b9 data/bossmod/forge/biome_modifier/add_end_alexandrite_ore.json
 e8e31c39c6dacc28d950997dccc39c560bd29404 data/bossmod/forge/biome_modifier/add_nether_alexandrite_ore.json

@@ -50,5 +50,16 @@ public class ModBlockTagProvider extends BlockTagsProvider {
         tag(ModTags.Blocks.INCORRECT_FOR_ALEXANDRITE_TOOL)
                 .addTag(BlockTags.INCORRECT_FOR_IRON_TOOL)
                 .remove(ModTags.Blocks.NEEDS_ALEXANDRITE_TOOL);
+
+        tag(ModTags.Blocks.NEEDS_ADVANCE_TOOL)
+                .add(ModBlocks.RAW_ALEXANDRITE_BLOCK.get())
+                .add(Blocks.OBSIDIAN)
+                .add(ModBlocks.ALEXANDRITE_END_ORE.get())
+                .add(ModBlocks.MAGIC_BLOCK.get())
+                .addTag(BlockTags.NEEDS_IRON_TOOL);
+
+        tag(ModTags.Blocks.INCORRECT_FOR_ADVANCE_TOOL)
+                .addTag(BlockTags.INCORRECT_FOR_NETHERITE_TOOL)
+                .remove(ModTags.Blocks.NEEDS_ADVANCE_TOOL);
     }
 }

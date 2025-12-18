@@ -1,0 +1,35 @@
+{
+  "parent": "bossmod:alexandrite/alexandrite_sword",
+  "criteria": {
+    "AdvanceSword": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:advance_sword"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.alexandrite.advance_sword.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "count": 1,
+      "id": "bossmod:advance_sword"
+    },
+    "title": {
+      "translate": "advancements.alexandrite.advance_sword.title"
+    }
+  },
+  "requirements": [
+    [
+      "AdvanceSword"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

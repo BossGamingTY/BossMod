@@ -177,6 +177,16 @@ public class ModAdvancementProvider extends ForgeAdvancementProvider {
                     .addCriterion("AlexandriteSword", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.ALEXANDRITE_SWORD.get()))
                     .save(consumer, ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "alexandrite/alexandrite_sword"));
 
+            AdvancementHolder advance_sword = Advancement.Builder.advancement()
+                    .parent(alexandrite_sword)
+                    .display(ModItems.ADVANCE_SWORD.get(),
+                            Component.translatable("advancements.alexandrite.advance_sword.title"),
+                            Component.translatable("advancements.alexandrite.advance_sword.description"),
+                            null,
+                            AdvancementType.CHALLENGE, true, true, true)
+                    .addCriterion("AdvanceSword", InventoryChangeTrigger.TriggerInstance.hasItems(ModItems.ADVANCE_SWORD.get()))
+                    .save(consumer, ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "alexandrite/advance_sword"));
+
             AdvancementHolder alexandrite_axe = Advancement.Builder.advancement()
                     .parent(alexandrite_sword)
                     .display(ModItems.ALEXANDRITE_AXE.get(),

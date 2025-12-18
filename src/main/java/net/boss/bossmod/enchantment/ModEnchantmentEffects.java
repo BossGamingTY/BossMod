@@ -18,7 +18,8 @@ public class ModEnchantmentEffects {
             ENTITY_ENCHANTMENT_EFFECTS.register("lightning_striker", () -> LightningStrikerEnchantmentEffect.CODEC);
     public static final RegistryObject<MapCodec<? extends EnchantmentEntityEffect>> EXPLOSIVE =
             ENTITY_ENCHANTMENT_EFFECTS.register("explosive", () -> ExplosiveEnchantmentEffect.CODEC);
-
+    public static final RegistryObject<MapCodec<? extends EnchantmentEntityEffect>> TUNNEL =
+            ENTITY_ENCHANTMENT_EFFECTS.register("tunnel", () -> ExplosiveEnchantmentEffect.CODEC);
 
     public static void register(IEventBus eventBus) {
         ENTITY_ENCHANTMENT_EFFECTS.register(eventBus);

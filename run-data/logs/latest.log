@@ -1,33 +1,33 @@
-[10Nov2025 00:41:45.460] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\Tyler\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, bossmod, --all, --output, C:\Users\Tyler\Documents\BossMod\src\generated\resources, --existing, C:\Users\Tyler\Documents\BossMod\src\main\resources]
-[10Nov2025 00:41:45.462] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.8+9-LTS
-[10Nov2025 00:41:45.463] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.8 by Microsoft; OS Windows 10 arch amd64 version 10.0
-[10Nov2025 00:41:45.562] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
-[10Nov2025 00:41:45.659] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/Tyler/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
-[10Nov2025 00:41:46.721] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[10Nov2025 00:41:47.366] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\Tyler\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, bossmod, --all, --output, C:\Users\Tyler\Documents\BossMod\src\generated\resources, --existing, C:\Users\Tyler\Documents\BossMod\src\main\resources]
-[10Nov2025 00:41:51.968] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.0.16, for MC 1.21.1 with MCP 20240808.132146
-[10Nov2025 00:41:51.968] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.0.16 Initialized
-[10Nov2025 00:41:51.989] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
-[10Nov2025 00:41:52.452] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [bossmod]
-[10Nov2025 00:41:52.508] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Tyler/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.16_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.0.16_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
-[10Nov2025 00:41:52.509] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Tyler/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.16_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.0.16_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
-[10Nov2025 00:41:52.655] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[10Nov2025 00:41:52.789] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 132 ms
-[10Nov2025 00:41:52.789] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[10Nov2025 00:41:52.833] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 44 ms
-[10Nov2025 00:41:52.833] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id bossmod
-[10Nov2025 00:41:52.841] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id bossmod finished after 7 ms
-[10Nov2025 00:41:52.842] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id bossmod
-[10Nov2025 00:41:52.843] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id bossmod finished after 1 ms
-[10Nov2025 00:41:52.843] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: bossmod
-[10Nov2025 00:41:52.876] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: bossmod finished after 32 ms
-[10Nov2025 00:41:52.876] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: bossmod
-[10Nov2025 00:41:53.006] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: bossmod finished after 129 ms
-[10Nov2025 00:41:53.006] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
-[10Nov2025 00:41:53.026] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 19 ms
-[10Nov2025 00:41:53.026] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Advancements
-[10Nov2025 00:41:53.031] [main/INFO] [net.minecraft.data.DataGenerator/]: Advancements finished after 5 ms
-[10Nov2025 00:41:53.031] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : bossmod
-[10Nov2025 00:41:53.041] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : bossmod finished after 8 ms
-[10Nov2025 00:41:53.041] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 384 ms
-[10Nov2025 00:41:53.049] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 294, old count: 294, new count: 295, removed stale: 0, written: 1
+[18Dec2025 17:20:37.082] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\Tyler\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, bossmod, --all, --output, C:\Users\Tyler\Documents\BossMod\src\generated\resources, --existing, C:\Users\Tyler\Documents\BossMod\src\main\resources]
+[18Dec2025 17:20:37.085] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.8+9-LTS
+[18Dec2025 17:20:37.086] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.8 by Microsoft; OS Windows 10 arch amd64 version 10.0
+[18Dec2025 17:20:37.153] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[18Dec2025 17:20:37.229] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/Tyler/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[18Dec2025 17:20:37.912] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[18Dec2025 17:20:38.383] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\Tyler\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, bossmod, --all, --output, C:\Users\Tyler\Documents\BossMod\src\generated\resources, --existing, C:\Users\Tyler\Documents\BossMod\src\main\resources]
+[18Dec2025 17:20:41.559] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 52.0.16, for MC 1.21.1 with MCP 20240808.132146
+[18Dec2025 17:20:41.559] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v52.0.16 Initialized
+[18Dec2025 17:20:41.571] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[18Dec2025 17:20:41.944] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [bossmod]
+[18Dec2025 17:20:41.982] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Tyler/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.16_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.0.16_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[18Dec2025 17:20:41.983] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Tyler/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21.1-52.0.16_mapped_parchment_2024.11.17-1.21.1/forge-1.21.1-52.0.16_mapped_parchment_2024.11.17-1.21.1-recomp.jar%230!/data/.mcassetsroot' uses unexpected schema
+[18Dec2025 17:20:42.062] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[18Dec2025 17:20:42.168] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 104 ms
+[18Dec2025 17:20:42.168] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[18Dec2025 17:20:42.227] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 58 ms
+[18Dec2025 17:20:42.228] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id bossmod
+[18Dec2025 17:20:42.237] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id bossmod finished after 8 ms
+[18Dec2025 17:20:42.237] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id bossmod
+[18Dec2025 17:20:42.239] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id bossmod finished after 1 ms
+[18Dec2025 17:20:42.239] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: bossmod
+[18Dec2025 17:20:42.264] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: bossmod finished after 25 ms
+[18Dec2025 17:20:42.264] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: bossmod
+[18Dec2025 17:20:42.370] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: bossmod finished after 104 ms
+[18Dec2025 17:20:42.370] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Registries
+[18Dec2025 17:20:42.380] [main/INFO] [net.minecraft.data.DataGenerator/]: Registries finished after 9 ms
+[18Dec2025 17:20:42.380] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Advancements
+[18Dec2025 17:20:42.384] [main/INFO] [net.minecraft.data.DataGenerator/]: Advancements finished after 4 ms
+[18Dec2025 17:20:42.384] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Global Loot Modifiers : bossmod
+[18Dec2025 17:20:42.388] [main/INFO] [net.minecraft.data.DataGenerator/]: Global Loot Modifiers : bossmod finished after 3 ms
+[18Dec2025 17:20:42.388] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 325 ms
+[18Dec2025 17:20:42.393] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 297, old count: 297, new count: 298, removed stale: 0, written: 0

@@ -28,13 +28,17 @@ public class ModItemTagProvider extends ItemTagsProvider {
         tag(ItemTags.SHOVELS).add(ModItems.ALEXANDRITE_SHOVEL.get());
         tag(ItemTags.AXES).add(ModItems.ALEXANDRITE_AXE.get());
         tag(ItemTags.HOES).add(ModItems.ALEXANDRITE_HOE.get());
-        tag(ItemTags.PICKAXES).add(ModItems.ALEXANDRITE_HAMMER.get());
         tag(ItemTags.BOW_ENCHANTABLE).add(ModItems.KAUPEN_BOW.get());
         tag(ItemTags.ARMOR_ENCHANTABLE)
                 .add(ModItems.ALEXANDRITE_HELMET.get())
                 .add(ModItems.ALEXANDRITE_CHESTPLATE.get())
                 .add(ModItems.ALEXANDRITE_LEGGINGS.get())
                 .add(ModItems.ALEXANDRITE_BOOTS.get());
+
+        tag(ModTags.Items.HAMMER_PICKAXE)
+                .add(ModItems.ALEXANDRITE_HAMMER.get());
+//        tag(ModTags.Items.HAMMER_EXCLUSIVE)
+//                .add(ModItems.ALEXANDRITE_HAMMER.get());
 
         tag(ModTags.Items.TRANSFORMABLE_ITEMS)
                 .add(ModItems.ALEXANDRITE.get())

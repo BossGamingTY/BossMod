@@ -23,6 +23,7 @@
   "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
 
   //Tools
+  "item.bossmod.advance_sword": "Advance Sword",
   "item.bossmod.alexandrite_sword": "Alexandrite Sword",
   "item.bossmod.alexandrite_pickaxe": "Alexandrite Pickaxe",
   "item.bossmod.alexandrite_shovel": "Alexandrite Shovel",
@@ -38,6 +39,7 @@
   // Enchantments
   "enchantment.bossmod.lightning_striker": "Lightning Striker",
   "enchantment.bossmod.explosive": "Explosive",
+  "enchantment.bossmod.tunnel": "Tunneler",
 
   //Armour
   "item.bossmod.alexandrite_helmet": "Alexandrite Helmet",
@@ -132,6 +134,8 @@
   "advancements.alexandrite.alexandrite_axe.description": "Craft a Alexandrite Axe",
   "advancements.alexandrite.alexandrite_sword.title": "Start the attack with alexandrite",
   "advancements.alexandrite.alexandrite_sword.description": "Craft a Alexandrite Sword",
+  "advancements.alexandrite.advance_sword.title": "The best sword",
+  "advancements.alexandrite.advance_sword.description": "Take long time but worth it",
   "advancements.alexandrite.kaupen_bow.title": "Alexandrite bow upgrade",
   "advancements.alexandrite.kaupen_bow.description": "Upgrade your bow into Kaupen bow",
   "advancements.alexandrite.radiation_orb.title": "Radiation Orb",

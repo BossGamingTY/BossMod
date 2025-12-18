@@ -4,6 +4,11 @@
     "minecraft:obsidian",
     "bossmod:alexandrite_end_ore",
     "bossmod:magic_block",
+    "#minecraft:needs_iron_tool",
+    "bossmod:raw_alexandrite_block",
+    "minecraft:obsidian",
+    "bossmod:alexandrite_end_ore",
+    "bossmod:magic_block",
     "#minecraft:needs_iron_tool"
   ]
 }

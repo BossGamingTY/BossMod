@@ -1,8 +1,9 @@
-// 1.21.1	2025-11-09T17:45:30.3171386	Recipes
+// 1.21.1	2025-12-18T11:42:58.6254677	Recipes
 bb7933bb1b05b9546d90a9d84d587a0b092779c9 data/bossmod/advancement/recipes/building_blocks/alexandrite_slab.json
 ef166d676288d88dc6fcacf23b08ee59de568e2e data/bossmod/advancement/recipes/building_blocks/alexandrite_stairs.json
 a3e2ead5e358d292e3aa0c5d8567a674661fdc11 data/bossmod/advancement/recipes/building_blocks/alexandrite_wall.json
 26cdc92183cb45facfacf8ad911dcffdcccb8990 data/bossmod/advancement/recipes/decorations/alexandrite_fence.json
+ed95bd493b1d4f800de0f8d41b701d27313a45b5 data/bossmod/advancement/recipes/misc/advance_sword.json
 570c9e6da5ce8832265f32efcc9dc21a08d4a988 data/bossmod/advancement/recipes/misc/alexandrite.json
 68a05623f17a3c3e8a4254a384441c4e77d84a89 data/bossmod/advancement/recipes/misc/alexandrite_axe.json
 8d9708d489222a5b6cdead7426ed07560cb46f47 data/bossmod/advancement/recipes/misc/alexandrite_block.json
@@ -29,7 +30,6 @@ d12a5195fa6aff32cdf679cc1fc8d188da05d405 data/bossmod/advancement/recipes/misc/k
 9d100d4008ac1b9b0ce4465ac86dfae905f8990f data/bossmod/advancement/recipes/misc/kaupen_armor_trim_smithing_template.json
 44c29d4e8bd8c66ab92e0fa1fbe02268401073cd data/bossmod/advancement/recipes/misc/kaupen_bow.json
 4e0d362a6ac51016c09216a8a71f3ee3bb1767d2 data/bossmod/advancement/recipes/misc/magic_block.json
-6cc79529e8a73ab578bb5e9486901ce90524e463 data/bossmod/advancement/recipes/misc/radiation_staff.json
 3a9015280c5572400d934a95332d2f78d61e827f data/bossmod/advancement/recipes/misc/raw_alexandrite.json
 29251ef1931bfcd72274c5f2b9d74f802f27c633 data/bossmod/advancement/recipes/misc/raw_alexandrite_block.json
 9540585efcf633f8842ae37d4bd72ecb51685bc0 data/bossmod/advancement/recipes/redstone/alexandrite_button.json
@@ -37,6 +37,7 @@ c39e079c4cf63952d94d9a04b793b6b17fc80dee data/bossmod/advancement/recipes/redsto
 93b14f0a519cf73e84dee7cd1ba2ae4b915ba5b1 data/bossmod/advancement/recipes/redstone/alexandrite_fence_gate.json
 3ffc5a61d20354b92fbad1ce29c45b3ed723125f data/bossmod/advancement/recipes/redstone/alexandrite_pressure_plate.json
 c96f25e0ec38d212f6fef1e53f2bd95f939a0daa data/bossmod/advancement/recipes/redstone/alexandrite_trapdoor.json
+35a462e7b3ca8b0301853e69265e348d24620bc1 data/bossmod/recipe/advance_sword.json
 90279ac4a9c866e0dcb935f14d546d9b92bc00ec data/bossmod/recipe/alexandrite.json
 57780b4508c75a918c795b5a641fc367afb87a5b data/bossmod/recipe/alexandrite_axe.json
 260e3a415fe29fd4581ce9a57784aaf94b48bd9e data/bossmod/recipe/alexandrite_block.json
@@ -72,6 +73,5 @@ b4c41bc80f4bc18d011f8169436ee51a8d97176c data/bossmod/recipe/chisel.json
 372254e25ad900c67a835000b479f883a2076f44 data/bossmod/recipe/kaupen_armor_trim_smithing_template.json
 21dbedc87033464117aa08534e6764becdf55ad0 data/bossmod/recipe/kaupen_bow.json
 69749ddba8ddc6e2c387a984d79f60289fcbde67 data/bossmod/recipe/magic_block.json
-7ad908fd0217f0786b1765e688e174c4a0d53a8e data/bossmod/recipe/radiation_staff.json
 af65d733143a863faccae8958320b2a6a8ff3a27 data/bossmod/recipe/raw_alexandrite.json
 67ad76dfe10a8fc3896a947a910d527ce281eed1 data/bossmod/recipe/raw_alexandrite_block.json

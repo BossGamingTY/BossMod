@@ -30,6 +30,9 @@ public class ModItems {
     public static final RegistryObject<Item> AURORA_ASHES = ITEMS.register("aurora_ashes",
             () -> new FuelItem(new Item.Properties(), 25000));
 
+    public static final RegistryObject<Item> ADVANCE_SWORD = ITEMS.register("advance_sword",
+            () -> new SwordItem(ModToolTiers.ADVANCE, new Item.Properties()
+                    .attributes(SwordItem.createAttributes(ModToolTiers.ADVANCE, 10, -2.5f)).fireResistant()));
     public static final RegistryObject<Item> ALEXANDRITE_SWORD = ITEMS.register("alexandrite_sword",
             () -> new SwordItem(ModToolTiers.ALEXANDRITE, new Item.Properties()
                     .attributes(SwordItem.createAttributes(ModToolTiers.ALEXANDRITE, 3, -2.4f))));

@@ -1,8 +1,10 @@
 {
   "remove": [
+    "#bossmod:needs_alexandrite_tool",
     "#bossmod:needs_alexandrite_tool"
   ],
   "values": [
-    "#minecraft:incorrect_for_iron_tool"
+    "#minecraft:incorrect_for_iron_tool",
+    "#minecraft:incorrect_for_netherite_tool"
   ]
 }

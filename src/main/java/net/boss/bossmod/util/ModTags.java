@@ -12,6 +12,8 @@ public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> NEEDS_ALEXANDRITE_TOOL = createTag("needs_alexandrite_tool");
         public static final TagKey<Block> INCORRECT_FOR_ALEXANDRITE_TOOL = createTag("incorrect_for_alexandrite_tool");
+        public static final TagKey<Block> NEEDS_ADVANCE_TOOL = createTag("needs_alexandrite_tool");
+        public static final TagKey<Block> INCORRECT_FOR_ADVANCE_TOOL = createTag("incorrect_for_alexandrite_tool");
 
         private static TagKey<Block> createTag(String name) {
             return BlockTags.create(ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, name));
@@ -20,6 +22,8 @@ public class ModTags {
 
     public static class Items {
         public static final TagKey<Item> TRANSFORMABLE_ITEMS = createTag("transformable_items");
+        public static final TagKey<Item> HAMMER_PICKAXE = createTag("hammer_pickaxe");
+        public static final TagKey<Item> HAMMER_EXCLUSIVE = createTag("hammer_exclusive");
 
         private static TagKey<Item> createTag(String name) {
             return ItemTags.create(ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, name));

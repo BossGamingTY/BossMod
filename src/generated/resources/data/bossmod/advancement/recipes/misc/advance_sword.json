@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_radiation_orb": {
+    "has_netherite_block": {
       "conditions": {
         "items": [
           {
-            "items": "bossmod:radiation_orb"
+            "items": "minecraft:netherite_block"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "bossmod:radiation_staff"
+        "recipe": "bossmod:advance_sword"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_radiation_orb"
+      "has_netherite_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "bossmod:radiation_staff"
+      "bossmod:advance_sword"
     ]
   }
 }

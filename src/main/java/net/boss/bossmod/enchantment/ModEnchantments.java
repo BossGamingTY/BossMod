@@ -3,6 +3,9 @@ package net.boss.bossmod.enchantment;
 import net.boss.bossmod.BossMod;
 import net.boss.bossmod.enchantment.custom.ExplosiveEnchantmentEffect;
 import net.boss.bossmod.enchantment.custom.LightningStrikerEnchantmentEffect;
+import net.boss.bossmod.item.ModItems;
+import net.boss.bossmod.util.ModTags;
+import net.minecraft.core.HolderSet;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
@@ -19,6 +22,8 @@ public class ModEnchantments {
             ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "lightning_striker"));
     public static final ResourceKey<Enchantment> EXPLOSIVE = ResourceKey.create(Registries.ENCHANTMENT,
             ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "explosive"));
+    public static final ResourceKey<Enchantment> TUNNEL = ResourceKey.create(Registries.ENCHANTMENT,
+            ResourceLocation.fromNamespaceAndPath(BossMod.MOD_ID, "tunnel"));
 
     public static void bootstrap(BootstrapContext<Enchantment> context) {
         var enchantments = context.lookup(Registries.ENCHANTMENT);
@@ -49,6 +54,19 @@ public class ModEnchantments {
                 .exclusiveWith(enchantments.getOrThrow(EnchantmentTags.DAMAGE_EXCLUSIVE))
                 .withEffect(EnchantmentEffectComponents.POST_ATTACK, EnchantmentTarget.ATTACKER,
                         EnchantmentTarget.VICTIM, new ExplosiveEnchantmentEffect()));
+
+        register(context, TUNNEL, Enchantment.enchantment(Enchantment.definition(
+                        items.getOrThrow(ItemTags.MINING_ENCHANTABLE),
+                        items.getOrThrow(ModTags.Items.HAMMER_PICKAXE),
+                        //HolderSet.direct(),
+                        10,
+                        3,
+                        Enchantment.dynamicCost(10, 10),
+                        Enchantment.dynamicCost(35, 11),
+                        5,
+                        EquipmentSlotGroup.MAINHAND))
+                .exclusiveWith(enchantments.getOrThrow(EnchantmentTags.MINING_EXCLUSIVE))
+        );
     }
 
 private static void register(BootstrapContext<Enchantment> registry, ResourceKey<Enchantment> key, Enchantment.Builder builder) {

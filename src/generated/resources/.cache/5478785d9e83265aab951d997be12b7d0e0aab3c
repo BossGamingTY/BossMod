@@ -1,6 +1,6 @@
-// 1.21.1	2025-10-13T21:25:40.4044042	Tags for minecraft:block mod id bossmod
-3b2058f7359d600ab08347527e757300633e5d34 data/bossmod/tags/block/incorrect_for_alexandrite_tool.json
-40cf2abf283095415bb056135262e9e30c8ac731 data/bossmod/tags/block/needs_alexandrite_tool.json
+// 1.21.1	2025-12-18T11:42:58.626468	Tags for minecraft:block mod id bossmod
+33c94fd3943f223a57fbc64f05bf1f8523d12026 data/bossmod/tags/block/incorrect_for_alexandrite_tool.json
+8a58bf8052cc42f0ed0cc3c40325c7e176e64f0d data/bossmod/tags/block/needs_alexandrite_tool.json
 21ef2b80447eef080b07b9f4e46148da8e0cdb96 data/minecraft/tags/block/fences.json
 c4aaaedad114057f7c056e149491f55782ab4182 data/minecraft/tags/block/fence_gates.json
 5900968b4e2101d3a7b3f21f2b86bb00086353c0 data/minecraft/tags/block/mineable/pickaxe.json

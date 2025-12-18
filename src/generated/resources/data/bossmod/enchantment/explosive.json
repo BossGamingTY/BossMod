@@ -8,7 +8,7 @@
       {
         "affected": "victim",
         "effect": {
-          "type": "bossmod:explosive"
+          "type": "bossmod:tunnel"
         },
         "enchanted": "attacker"
       }

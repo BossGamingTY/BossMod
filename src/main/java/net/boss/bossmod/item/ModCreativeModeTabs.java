@@ -28,6 +28,8 @@ public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
 
                         output.accept(ModBlocks.ALEXANDRITE_LAMP.get());
 
+                        output.accept(ModItems.ADVANCE_SWORD.get());
+
                         output.accept(ModItems.ALEXANDRITE_SWORD.get());
                         output.accept(ModItems.ALEXANDRITE_PICKAXE.get());
                         output.accept(ModItems.ALEXANDRITE_HAMMER.get());

@@ -2,20 +2,20 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "O": {
-      "item": "bossmod:radiation_orb"
+    "N": {
+      "item": "minecraft:netherite_block"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "pattern": [
-    " SO",
-    " SS",
-    "S  "
+    " N ",
+    " N ",
+    " S "
   ],
   "result": {
     "count": 1,
-    "id": "bossmod:radiation_staff"
+    "id": "bossmod:advance_sword"
   }
 }

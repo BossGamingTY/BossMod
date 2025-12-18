@@ -110,6 +110,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         trapdoorBuilder(ModBlocks.ALEXANDRITE_TRAPDOOR.get(), Ingredient.of(ModItems.ALEXANDRITE.get())).group("alexandrite")
                 .unlockedBy(getHasName(ModItems.ALEXANDRITE.get()), has(ModItems.ALEXANDRITE.get())).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ADVANCE_SWORD.get())
+                .pattern(" N ")
+                .pattern(" N ")
+                .pattern(" S ")
+                .define('N', Items.NETHERITE_BLOCK)
+                .define('S', Items.STICK)
+                .unlockedBy(getHasName(Items.NETHERITE_BLOCK), has(Items.NETHERITE_BLOCK)).save(pRecipeOutput);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ALEXANDRITE_SWORD.get())
                 .pattern(" A ")
                 .pattern(" A ")
@@ -203,13 +210,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 //              .define('A', ModBlocks.ALEXANDRITE_BLOCK.get())
 //              .unlockedBy(getHasName(ModBlocks.MAGIC_BLOCK.get()), has(ModBlocks.MAGIC_BLOCK.get())).save(pRecipeOutput);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RADIATION_STAFF.get(), 1)
-                .pattern(" SO")
-                .pattern(" SS")
-                .pattern("S  ")
-                .define('O', ModItems.RADIATION_ORB.get())
-                .define('S', Items.STICK)
-                .unlockedBy(getHasName(ModItems.RADIATION_ORB.get()), has(ModItems.RADIATION_ORB.get())).save(pRecipeOutput);
+//        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.RADIATION_STAFF.get(), 1)
+//                .pattern(" SO")
+//                .pattern(" SS")
+//                .pattern("S  ")
+//                .define('O', ModItems.RADIATION_ORB.get())
+//                .define('S', Items.STICK)
+//                .unlockedBy(getHasName(ModItems.RADIATION_ORB.get()), has(ModItems.RADIATION_ORB.get())).save(pRecipeOutput);
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,
