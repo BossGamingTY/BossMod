@@ -6,7 +6,7 @@ All thing this mod added:
 - Alexandrite Hammer (mine 3x3)
 - Advance tools (sword only for now)
 - Advance magic block (END_STONE -> END_STONE_BRICKS)
-- Advance item called a chisel which can do most of what the magic block can do
+- Advance item (Chisel - older version of magic block)
 - Custom Ores (Stone, deepslate, netherack and endstone versions)
 - Custom Trim (can use alexandrite for trim material)
 - 3 Paintings
