@@ -15,6 +15,9 @@
   "item.bossmod.kohlrabi_seeds": "Kohlrabi Seeds",
   "item.bossmod.honey_berries": "Honey Berries",
   "block.bossmod.honey_berry_bush": "Honey Berry Bush",
+  "item.bossmod.waffle": "Waffle",
+  "item.bossmod.syrup_waffle": "Waffle with syrup and butter",
+
 
   //Potion
   "effect.bossmod.slimey": "Slimey",
@@ -102,6 +105,7 @@
   "tooltip.bossmod.chisel.shift_down": "This Item changes certain Blocks",
   "tooltip.bossmod.chisel": "Press §eShift§r for more Information!",
   "tooltip.bossmod.kohlrabi": "This tastes GREAT!",
+  "tooltip.bossmod.waffle": "Made by §eGame Blaster§r on discord!",
 
   //Advancements
   "advancements.alexandrite.root.title": "Alexandrite",

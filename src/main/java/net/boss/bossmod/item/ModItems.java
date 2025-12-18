@@ -85,9 +85,25 @@ public class ModItems {
             () -> new ItemNameBlockItem(ModBlocks.KOHLRABI_CROP.get(), new Item.Properties()));
     public static final RegistryObject<Item> HONEY_BERRIES = ITEMS.register("honey_berries",
             () -> new ItemNameBlockItem(ModBlocks.HONEY_BERRY_BUSH.get(), new Item.Properties().food(ModFoodProperties.HONEY_BERRY)));
+    public static final RegistryObject<Item> WAFFLE = ITEMS.register("waffle",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.WAFFLE)) {
+        @Override
+        public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+            pTooltipComponents.add(Component.translatable("tooltip.bossmod.waffle"));
+            super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);}});
+    public static final RegistryObject<Item> SYRUP_WAFFLE = ITEMS.register("syrup_waffle",
+            () -> new Item(new Item.Properties().food(ModFoodProperties.WAFFLE)) {
+                @Override
+                public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+                    pTooltipComponents.add(Component.translatable("tooltip.bossmod.waffle"));
+                    super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);}});
 
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",
-            () -> new ChiselItem(new Item.Properties().durability(32)));
+            () -> new ChiselItem(new Item.Properties().durability(32)) {
+        @Override
+        public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
+            pTooltipComponents.add(Component.translatable("tooltip.bossmod.waffle"));
+            super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);}});
 
     public static final RegistryObject<Item> RADIATION_ORB = ITEMS.register("radiation_orb",
             () -> new Item(new Item.Properties()));

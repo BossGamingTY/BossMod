@@ -66,8 +66,6 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('A', ModItems.ALEXANDRITE.get())
                 .unlockedBy(getHasName(Items.REDSTONE_LAMP), has(Items.REDSTONE_LAMP)).save(pRecipeOutput);
 
-
-
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ALEXANDRITE.get(), 9)
                 .requires(ModBlocks.ALEXANDRITE_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.ALEXANDRITE_BLOCK.get()), has(ModBlocks.ALEXANDRITE_BLOCK.get())).save(pRecipeOutput);
@@ -217,6 +215,23 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 //                .define('O', ModItems.RADIATION_ORB.get())
 //                .define('S', Items.STICK)
 //                .unlockedBy(getHasName(ModItems.RADIATION_ORB.get()), has(ModItems.RADIATION_ORB.get())).save(pRecipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WAFFLE.get())
+                .pattern(" W ")
+                .pattern("SWE")
+                .pattern(" M ")
+                .define('S', Items.SUGAR)
+                .define('E', Items.EGG)
+                .define('M', Items.MILK_BUCKET)
+                .define('W', Items.WHEAT)
+                .unlockedBy(getHasName(Items.WHEAT), has(Items.WHEAT)).save(pRecipeOutput);
+        //ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WAFFLE.get())
+        //        .pattern("   ")
+        //        .pattern("MWM")
+        //        .pattern("   ")
+        //        .define('M', Items.MILK_BUCKET)
+        ///        .define('W', ModItems.WAFFLE.get())
+        //        .unlockedBy(getHasName(Items.WHEAT), has(Items.WHEAT)).save(pRecipeOutput);
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

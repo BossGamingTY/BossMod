@@ -10,4 +10,9 @@ public class ModFoodProperties {
 
     public static final FoodProperties HONEY_BERRY = new FoodProperties.Builder().nutrition(2)
             .saturationModifier(0.15f).fast().build();
+
+    public static final FoodProperties WAFFLE = new FoodProperties.Builder().nutrition(10)
+            .saturationModifier(0.7f).fast().build();
+    public static final FoodProperties SYRUP_WAFFLE = new FoodProperties.Builder().nutrition(15)
+            .saturationModifier(0.8f).fast().build();
 }

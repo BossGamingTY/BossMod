@@ -23,6 +23,8 @@ public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
 
                         output.accept(ModItems.CHISEL.get());
                         output.accept(ModItems.KOHLRABI.get());
+                        output.accept(ModItems.WAFFLE.get());
+                        output.accept(ModItems.SYRUP_WAFFLE.get());
 
                         output.accept(ModItems.AURORA_ASHES.get());
 
