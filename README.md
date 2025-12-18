@@ -13,11 +13,13 @@ Content in latest version of the mod:
 - Custom Foods
 - Custom Fuel
 - Alexandrite Lamp
+
     
 Later update content (planned or only creative currently)
 - Enchantments in structures
 - Magic staff (include 2d animatied icon and 3d staff)
 - Syrup and butter
+- Enchantment for hammer (book in game but does nothing)
 
 
 Serie I am following: https://www.youtube.com/playlist?list=PLKGarocXCE1GspJBXQEGuhazihZCSSLmK
