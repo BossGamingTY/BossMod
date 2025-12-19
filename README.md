@@ -24,6 +24,7 @@ Later update content (planned or only creative currently)
 - Syrup and butter
 - Enchantment for hammer (book in game but does nothing)
 - Custom dimension
+- Custom Entities
 
 
 Suggestions can be given on discord: https://discord.gg/YxfRqTMrXH
