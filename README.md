@@ -17,12 +17,14 @@ All thing this mod added:
 - More Advancements
 - Music disk
 
-    
+Soon to be release:
+- Custom dimension ( /execute in bossmod:[dimension] run tp ~ ~ ~ )
+
+
 Later update content (planned or only creative currently)
 - Magic staff (include 2d animatied icon and 3d staff)
 - Syrup and butter
 - Enchantment for hammer (book in game but does nothing)
-- Custom dimension ( /execute in bossmod:[dimension] run tp ~ ~ ~ )
 - Enchantments in structures
 - Custom Entities
 
