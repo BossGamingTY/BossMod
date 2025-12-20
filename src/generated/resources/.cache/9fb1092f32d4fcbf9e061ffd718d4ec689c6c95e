@@ -1,4 +1,4 @@
-// 1.21.1	2025-12-18T20:59:30.5958094	Recipes
+// 1.21.1	2025-12-18T22:25:45.2676258	Recipes
 bb7933bb1b05b9546d90a9d84d587a0b092779c9 data/bossmod/advancement/recipes/building_blocks/alexandrite_slab.json
 ef166d676288d88dc6fcacf23b08ee59de568e2e data/bossmod/advancement/recipes/building_blocks/alexandrite_stairs.json
 a3e2ead5e358d292e3aa0c5d8567a674661fdc11 data/bossmod/advancement/recipes/building_blocks/alexandrite_wall.json
@@ -32,6 +32,7 @@ d12a5195fa6aff32cdf679cc1fc8d188da05d405 data/bossmod/advancement/recipes/misc/k
 4e0d362a6ac51016c09216a8a71f3ee3bb1767d2 data/bossmod/advancement/recipes/misc/magic_block.json
 3a9015280c5572400d934a95332d2f78d61e827f data/bossmod/advancement/recipes/misc/raw_alexandrite.json
 29251ef1931bfcd72274c5f2b9d74f802f27c633 data/bossmod/advancement/recipes/misc/raw_alexandrite_block.json
+bcf86df4ded8b66df9bbc2b962ed7798a9894cef data/bossmod/advancement/recipes/misc/syrup_waffle.json
 12277f63b13bd510d63a25c1f838d852ed242cd1 data/bossmod/advancement/recipes/misc/waffle.json
 9540585efcf633f8842ae37d4bd72ecb51685bc0 data/bossmod/advancement/recipes/redstone/alexandrite_button.json
 c39e079c4cf63952d94d9a04b793b6b17fc80dee data/bossmod/advancement/recipes/redstone/alexandrite_door.json
@@ -76,4 +77,5 @@ b4c41bc80f4bc18d011f8169436ee51a8d97176c data/bossmod/recipe/chisel.json
 69749ddba8ddc6e2c387a984d79f60289fcbde67 data/bossmod/recipe/magic_block.json
 af65d733143a863faccae8958320b2a6a8ff3a27 data/bossmod/recipe/raw_alexandrite.json
 67ad76dfe10a8fc3896a947a910d527ce281eed1 data/bossmod/recipe/raw_alexandrite_block.json
+5d9250a7a522732ddcb192defe3f98684220c0be data/bossmod/recipe/syrup_waffle.json
 8838f137be0c1b36da0741cd3331b19ee378b5f9 data/bossmod/recipe/waffle.json

@@ -105,7 +105,9 @@
   "tooltip.bossmod.chisel.shift_down": "This Item changes certain Blocks",
   "tooltip.bossmod.chisel": "Press §eShift§r for more Information!",
   "tooltip.bossmod.kohlrabi": "This tastes GREAT!",
-  "tooltip.bossmod.waffle": "Made by §eGame Blaster§r on discord!",
+
+  //credits
+  "credits.bossmod.game_blaster": "Made by §eGame Blaster§r on discord!",
 
   //Advancements
   "advancements.alexandrite.root.title": "Alexandrite",

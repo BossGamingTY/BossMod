@@ -28,8 +28,6 @@ public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
 
                         output.accept(ModItems.AURORA_ASHES.get());
 
-                        output.accept(ModBlocks.ALEXANDRITE_LAMP.get());
-
                         output.accept(ModItems.ADVANCE_SWORD.get());
 
                         output.accept(ModItems.ALEXANDRITE_SWORD.get());
@@ -62,16 +60,16 @@ public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CRE
                     .withTabsBefore(ALEXANDRITE_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.bossmod.alexandrite_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
-                        output.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
-
                         output.accept(ModBlocks.ALEXANDRITE_ORE.get());
                         output.accept(ModBlocks.ALEXANDRITE_DEEPSLATE_ORE.get());
                         output.accept(ModBlocks.ALEXANDRITE_NETHER_ORE.get());
                         output.accept(ModBlocks.ALEXANDRITE_END_ORE.get());
 
-
                         output.accept(ModBlocks.MAGIC_BLOCK.get());
+                        output.accept(ModBlocks.ALEXANDRITE_LAMP.get());
+
+                        output.accept(ModBlocks.ALEXANDRITE_BLOCK.get());
+                        output.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
 
                         output.accept(ModBlocks.ALEXANDRITE_STAIRS.get());
                         output.accept(ModBlocks.ALEXANDRITE_SLAB.get());
@@ -85,7 +83,6 @@ public static final RegistryObject<CreativeModeTab> ALEXANDRITE_BLOCKS_TAB = CRE
 
                         output.accept(ModBlocks.ALEXANDRITE_DOOR.get());
                         output.accept(ModBlocks.ALEXANDRITE_TRAPDOOR.get());
-
                     }).build());
 
 

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "minecraft:honey_bottle"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "W": {
+      "item": "bossmod:waffle"
+    }
+  },
+  "pattern": [
+    "SHS",
+    "MWM",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "bossmod:syrup_waffle"
+  }
+}

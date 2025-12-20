@@ -1,0 +1,27 @@
+{
+  "type": "bossmod:superflat_type",
+  "generator": {
+    "settings": {
+      "": "bossmod:custom_dimension_settings",
+      "biome": "minecraft:plains",
+      "lakes": false,
+      "features": false,
+      "layers": [
+        {
+          "height": 64,
+          "block": "minecraft:air"
+        },
+        {
+          "height": 32,
+          "block": "minecraft:stone"
+        },
+        {
+          "height": 1,
+          "block": "minecraft:gray_concrete"
+        }
+      ],
+      "structure_overrides": []
+    },
+    "type": "minecraft:flat"
+  }
+}

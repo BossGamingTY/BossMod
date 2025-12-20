@@ -14,7 +14,7 @@ public record TunnelEnchantmentEffect() implements EnchantmentEntityEffect {
 
     @Override
     public void apply(ServerLevel pLevel, int pEnchantmentLevel, EnchantedItemInUse pItem, Entity pEntity, Vec3 pPos) {
-
+        //TO DO
     }
 
     @Override

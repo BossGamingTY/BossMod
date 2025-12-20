@@ -225,13 +225,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('M', Items.MILK_BUCKET)
                 .define('W', Items.WHEAT)
                 .unlockedBy(getHasName(Items.WHEAT), has(Items.WHEAT)).save(pRecipeOutput);
-        //ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.WAFFLE.get())
-        //        .pattern("   ")
-        //        .pattern("MWM")
-        //        .pattern("   ")
-        //        .define('M', Items.MILK_BUCKET)
-        ///        .define('W', ModItems.WAFFLE.get())
-        //        .unlockedBy(getHasName(Items.WHEAT), has(Items.WHEAT)).save(pRecipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.SYRUP_WAFFLE.get())
+                .pattern("SHS")
+                .pattern("MWM")
+                .pattern("   ")
+                .define('M', Items.MILK_BUCKET)
+                .define('H', Items.HONEY_BOTTLE)
+                .define('S', Items.SUGAR)
+                .define('W', ModItems.WAFFLE.get())
+                .unlockedBy(getHasName(ModItems.WAFFLE.get()), has(ModItems.WAFFLE.get())).save(pRecipeOutput);
     }
 
     protected static void oreSmelting(RecipeOutput recipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

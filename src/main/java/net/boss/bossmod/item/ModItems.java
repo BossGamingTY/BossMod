@@ -95,7 +95,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().food(ModFoodProperties.WAFFLE)) {
                 @Override
                 public void appendHoverText(ItemStack pStack, Item.TooltipContext pContext, List<Component> pTooltipComponents, TooltipFlag pTooltipFlag) {
-                    pTooltipComponents.add(Component.translatable("tooltip.bossmod.waffle"));
+                    pTooltipComponents.add(Component.translatable("credits.bossmod.game_blaster"));
                     super.appendHoverText(pStack, pContext, pTooltipComponents, pTooltipFlag);}});
 
     public static final RegistryObject<Item> CHISEL = ITEMS.register("chisel",

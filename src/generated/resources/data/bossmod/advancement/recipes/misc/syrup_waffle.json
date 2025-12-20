@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bossmod:syrup_waffle"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_waffle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bossmod:waffle"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_waffle"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bossmod:syrup_waffle"
+    ]
+  }
+}
