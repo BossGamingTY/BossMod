@@ -19,11 +19,11 @@ All thing this mod added:
 
     
 Later update content (planned or only creative currently)
-- Enchantments in structures
 - Magic staff (include 2d animatied icon and 3d staff)
 - Syrup and butter
 - Enchantment for hammer (book in game but does nothing)
-- Custom dimension
+- Custom dimension ( /execute in bossmod:[dimension] run tp ~ ~ ~ )
+- Enchantments in structures
 - Custom Entities
 
 
